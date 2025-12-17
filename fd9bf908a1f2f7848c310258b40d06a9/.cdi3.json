@@ -1,0 +1,2322 @@
+{
+  "Version": 3,
+  "Parameters": [
+    {
+      "Id": "EyeTracking_ParamAngleX",
+      "GroupId": "",
+      "Name": "頭 X"
+    },
+    {
+      "Id": "EyeTracking_ParamAngleY",
+      "GroupId": "",
+      "Name": "頭 Y"
+    },
+    {
+      "Id": "EyeTracking_ParamArmUpperLX",
+      "GroupId": "",
+      "Name": "上腕 L 捻り"
+    },
+    {
+      "Id": "EyeTracking_ParamArmUpperRX",
+      "GroupId": "",
+      "Name": "上腕 R 捻り"
+    },
+    {
+      "Id": "EyeTracking_ParamBodyUpperAngleX",
+      "GroupId": "",
+      "Name": "上半身 X"
+    },
+    {
+      "Id": "EyeTracking_ParamBodyUpperAngleY",
+      "GroupId": "",
+      "Name": "上半身 Y"
+    },
+    {
+      "Id": "EyeTracking_ParamEyeBallX",
+      "GroupId": "",
+      "Name": "目玉 X"
+    },
+    {
+      "Id": "EyeTracking_ParamEyeBallY",
+      "GroupId": "",
+      "Name": "目玉 Y"
+    },
+    {
+      "Id": "EyeTracking_ParamPhysicsX",
+      "GroupId": "",
+      "Name": "物理演算入力 X"
+    },
+    {
+      "Id": "EyeTracking_ParamPhysicsY",
+      "GroupId": "",
+      "Name": "物理演算入力 Y"
+    },
+    {
+      "Id": "LoopAlpha1",
+      "GroupId": "",
+      "Name": "LoopAlpha1"
+    },
+    {
+      "Id": "LoopAlpha2",
+      "GroupId": "",
+      "Name": "LoopAlpha2"
+    },
+    {
+      "Id": "LoopAlpha3",
+      "GroupId": "",
+      "Name": "LoopAlpha3"
+    },
+    {
+      "Id": "Param",
+      "GroupId": "",
+      "Name": "作業用角度"
+    },
+    {
+      "Id": "Param10",
+      "GroupId": "",
+      "Name": "花冠1"
+    },
+    {
+      "Id": "Param100",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_g_1"
+    },
+    {
+      "Id": "Param101",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_h"
+    },
+    {
+      "Id": "Param102",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_h_1"
+    },
+    {
+      "Id": "Param103",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_i"
+    },
+    {
+      "Id": "Param104",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_i_1"
+    },
+    {
+      "Id": "Param105",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_J"
+    },
+    {
+      "Id": "Param106",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_J_1"
+    },
+    {
+      "Id": "Param107",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_k"
+    },
+    {
+      "Id": "Param108",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_k_1"
+    },
+    {
+      "Id": "Param109",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_l"
+    },
+    {
+      "Id": "Param11",
+      "GroupId": "",
+      "Name": "花冠2"
+    },
+    {
+      "Id": "Param110",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_l_1"
+    },
+    {
+      "Id": "Param111",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_n"
+    },
+    {
+      "Id": "Param112",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_n_1"
+    },
+    {
+      "Id": "Param113",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_m"
+    },
+    {
+      "Id": "Param114",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_m_1"
+    },
+    {
+      "Id": "Param115",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_1"
+    },
+    {
+      "Id": "Param116",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer"
+    },
+    {
+      "Id": "Param117",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_splash_a"
+    },
+    {
+      "Id": "Param118",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_splash_a_1"
+    },
+    {
+      "Id": "Param119",
+      "GroupId": "",
+      "Name": "RL_forearm_sleeve_splash_b"
+    },
+    {
+      "Id": "Param12",
+      "GroupId": "",
+      "Name": "花冠移動Y"
+    },
+    {
+      "Id": "Param120",
+      "GroupId": "",
+      "Name": "RL_forearm_sleeve_splash_b_1"
+    },
+    {
+      "Id": "Param121",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_splash_c"
+    },
+    {
+      "Id": "Param122",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_splash_c_1"
+    },
+    {
+      "Id": "Param123",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_d"
+    },
+    {
+      "Id": "Param124",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_d_1"
+    },
+    {
+      "Id": "Param125",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_e"
+    },
+    {
+      "Id": "Param126",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_e_1"
+    },
+    {
+      "Id": "Param127",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_a"
+    },
+    {
+      "Id": "Param128",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_a_1"
+    },
+    {
+      "Id": "Param129",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_aa"
+    },
+    {
+      "Id": "Param13",
+      "GroupId": "",
+      "Name": "花冠X"
+    },
+    {
+      "Id": "Param130",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_aa_1"
+    },
+    {
+      "Id": "Param131",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_ab"
+    },
+    {
+      "Id": "Param132",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_ab_1"
+    },
+    {
+      "Id": "Param133",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_ac"
+    },
+    {
+      "Id": "Param134",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_ac_1"
+    },
+    {
+      "Id": "Param135",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_ad"
+    },
+    {
+      "Id": "Param136",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_ad_1"
+    },
+    {
+      "Id": "Param137",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_ae"
+    },
+    {
+      "Id": "Param138",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_ae_1"
+    },
+    {
+      "Id": "Param139",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_af"
+    },
+    {
+      "Id": "Param14",
+      "GroupId": "",
+      "Name": "花冠Y"
+    },
+    {
+      "Id": "Param140",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_af_1"
+    },
+    {
+      "Id": "Param141",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_b"
+    },
+    {
+      "Id": "Param142",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_b_1"
+    },
+    {
+      "Id": "Param143",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_ba"
+    },
+    {
+      "Id": "Param144",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_ba_1"
+    },
+    {
+      "Id": "Param145",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_bb"
+    },
+    {
+      "Id": "Param146",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_bb_1"
+    },
+    {
+      "Id": "Param147",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_bc"
+    },
+    {
+      "Id": "Param148",
+      "GroupId": "",
+      "Name": "EF_F_flw_L_bc_1"
+    },
+    {
+      "Id": "Param149",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_a"
+    },
+    {
+      "Id": "Param15",
+      "GroupId": "",
+      "Name": "スカート1"
+    },
+    {
+      "Id": "Param150",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_a_1"
+    },
+    {
+      "Id": "Param151",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_aa"
+    },
+    {
+      "Id": "Param152",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_aa_1"
+    },
+    {
+      "Id": "Param153",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_ab"
+    },
+    {
+      "Id": "Param154",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_ab_1"
+    },
+    {
+      "Id": "Param155",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_ac"
+    },
+    {
+      "Id": "Param156",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_ac_1"
+    },
+    {
+      "Id": "Param157",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_ad"
+    },
+    {
+      "Id": "Param158",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_ad_1"
+    },
+    {
+      "Id": "Param159",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_ae"
+    },
+    {
+      "Id": "Param16",
+      "GroupId": "",
+      "Name": "スカート2"
+    },
+    {
+      "Id": "Param160",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_ae_1"
+    },
+    {
+      "Id": "Param161",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_b"
+    },
+    {
+      "Id": "Param162",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_b_1"
+    },
+    {
+      "Id": "Param163",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_c"
+    },
+    {
+      "Id": "Param164",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_c_1"
+    },
+    {
+      "Id": "Param165",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_d"
+    },
+    {
+      "Id": "Param166",
+      "GroupId": "",
+      "Name": "EF_F_flw_R_d_1"
+    },
+    {
+      "Id": "Param167",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_a_a"
+    },
+    {
+      "Id": "Param168",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_a_a_1"
+    },
+    {
+      "Id": "Param169",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_a_b"
+    },
+    {
+      "Id": "Param17",
+      "GroupId": "",
+      "Name": "スカートY1"
+    },
+    {
+      "Id": "Param170",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_a_b_1"
+    },
+    {
+      "Id": "Param171",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_a_c"
+    },
+    {
+      "Id": "Param172",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_a_c_1"
+    },
+    {
+      "Id": "Param173",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_a_d"
+    },
+    {
+      "Id": "Param174",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_a_d_1"
+    },
+    {
+      "Id": "Param175",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_e"
+    },
+    {
+      "Id": "Param176",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_e_1"
+    },
+    {
+      "Id": "Param177",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_b"
+    },
+    {
+      "Id": "Param178",
+      "GroupId": "",
+      "Name": "EF_Back_a_splash_b_1"
+    },
+    {
+      "Id": "Param179",
+      "GroupId": "",
+      "Name": "EF_Back_a_a"
+    },
+    {
+      "Id": "Param18",
+      "GroupId": "",
+      "Name": "スカートY2"
+    },
+    {
+      "Id": "Param180",
+      "GroupId": "",
+      "Name": "EF_Back_a_a_1"
+    },
+    {
+      "Id": "Param181",
+      "GroupId": "",
+      "Name": "EF_Back_a_b"
+    },
+    {
+      "Id": "Param182",
+      "GroupId": "",
+      "Name": "EF_Back_a_b_1"
+    },
+    {
+      "Id": "Param183",
+      "GroupId": "",
+      "Name": "EF_Back_a_c"
+    },
+    {
+      "Id": "Param184",
+      "GroupId": "",
+      "Name": "EF_Back_a_c_1"
+    },
+    {
+      "Id": "Param185",
+      "GroupId": "",
+      "Name": "EF_Back_a_d"
+    },
+    {
+      "Id": "Param186",
+      "GroupId": "",
+      "Name": "EF_Back_a_d_1"
+    },
+    {
+      "Id": "Param187",
+      "GroupId": "",
+      "Name": "EF_Back_a_e"
+    },
+    {
+      "Id": "Param188",
+      "GroupId": "",
+      "Name": "EF_Back_a_e_1"
+    },
+    {
+      "Id": "Param189",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_a"
+    },
+    {
+      "Id": "Param19",
+      "GroupId": "",
+      "Name": "衣装リボン1"
+    },
+    {
+      "Id": "Param190",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_a_1"
+    },
+    {
+      "Id": "Param191",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_b"
+    },
+    {
+      "Id": "Param192",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_b_1"
+    },
+    {
+      "Id": "Param193",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_c"
+    },
+    {
+      "Id": "Param194",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_c_1"
+    },
+    {
+      "Id": "Param195",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_d"
+    },
+    {
+      "Id": "Param196",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_d_1"
+    },
+    {
+      "Id": "Param197",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_e"
+    },
+    {
+      "Id": "Param198",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_e_1"
+    },
+    {
+      "Id": "Param199",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_f"
+    },
+    {
+      "Id": "Param2",
+      "GroupId": "",
+      "Name": "ツインL1"
+    },
+    {
+      "Id": "Param20",
+      "GroupId": "",
+      "Name": "衣装リボン2"
+    },
+    {
+      "Id": "Param200",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_f_1"
+    },
+    {
+      "Id": "Param201",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_g"
+    },
+    {
+      "Id": "Param202",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_g_1"
+    },
+    {
+      "Id": "Param203",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_h"
+    },
+    {
+      "Id": "Param204",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_h_1"
+    },
+    {
+      "Id": "Param205",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_i"
+    },
+    {
+      "Id": "Param206",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_i_1"
+    },
+    {
+      "Id": "Param207",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_j"
+    },
+    {
+      "Id": "Param208",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_j_1"
+    },
+    {
+      "Id": "Param209",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_k"
+    },
+    {
+      "Id": "Param21",
+      "GroupId": "",
+      "Name": "腰リボン1"
+    },
+    {
+      "Id": "Param210",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_k_1"
+    },
+    {
+      "Id": "Param211",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_l"
+    },
+    {
+      "Id": "Param212",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_l_1"
+    },
+    {
+      "Id": "Param213",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_m"
+    },
+    {
+      "Id": "Param214",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_m_1"
+    },
+    {
+      "Id": "Param215",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_1"
+    },
+    {
+      "Id": "Param216",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_n_1"
+    },
+    {
+      "Id": "Param217",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_o"
+    },
+    {
+      "Id": "Param218",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_o_1"
+    },
+    {
+      "Id": "Param219",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_p"
+    },
+    {
+      "Id": "Param22",
+      "GroupId": "",
+      "Name": "腰リボン2"
+    },
+    {
+      "Id": "Param220",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_p_1"
+    },
+    {
+      "Id": "Param221",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_q"
+    },
+    {
+      "Id": "Param222",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_q_1"
+    },
+    {
+      "Id": "Param223",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_r"
+    },
+    {
+      "Id": "Param224",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_r_1"
+    },
+    {
+      "Id": "Param225",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_s"
+    },
+    {
+      "Id": "Param226",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_s_1"
+    },
+    {
+      "Id": "Param227",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_t"
+    },
+    {
+      "Id": "Param228",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_t_1"
+    },
+    {
+      "Id": "Param229",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_u"
+    },
+    {
+      "Id": "Param23",
+      "GroupId": "",
+      "Name": "腰リボン3"
+    },
+    {
+      "Id": "Param230",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_u_1"
+    },
+    {
+      "Id": "Param231",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_v"
+    },
+    {
+      "Id": "Param232",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_v_1"
+    },
+    {
+      "Id": "Param233",
+      "GroupId": "",
+      "Name": "EF_Back_b_a"
+    },
+    {
+      "Id": "Param234",
+      "GroupId": "",
+      "Name": "EF_Back_b_a_1"
+    },
+    {
+      "Id": "Param235",
+      "GroupId": "",
+      "Name": "EF_Back_b_b"
+    },
+    {
+      "Id": "Param236",
+      "GroupId": "",
+      "Name": "EF_Back_b_b_1"
+    },
+    {
+      "Id": "Param237",
+      "GroupId": "",
+      "Name": "EF_Back_b_c"
+    },
+    {
+      "Id": "Param238",
+      "GroupId": "",
+      "Name": "EF_Back_b_c_1"
+    },
+    {
+      "Id": "Param239",
+      "GroupId": "",
+      "Name": "EF_Back_c"
+    },
+    {
+      "Id": "Param24",
+      "GroupId": "",
+      "Name": "花1"
+    },
+    {
+      "Id": "Param240",
+      "GroupId": "",
+      "Name": "EF_Back_c_1"
+    },
+    {
+      "Id": "Param241",
+      "GroupId": "",
+      "Name": "EF_Back_d"
+    },
+    {
+      "Id": "Param242",
+      "GroupId": "",
+      "Name": "EF_Back_d_1"
+    },
+    {
+      "Id": "Param243",
+      "GroupId": "",
+      "Name": "EF_Back_e"
+    },
+    {
+      "Id": "Param244",
+      "GroupId": "",
+      "Name": "EF_Back_e_1"
+    },
+    {
+      "Id": "Param245",
+      "GroupId": "",
+      "Name": "EF_Back_f"
+    },
+    {
+      "Id": "Param246",
+      "GroupId": "",
+      "Name": "EF_Back_f_1"
+    },
+    {
+      "Id": "Param247",
+      "GroupId": "",
+      "Name": "EF_Back_g"
+    },
+    {
+      "Id": "Param248",
+      "GroupId": "",
+      "Name": "EF_Back_g_1"
+    },
+    {
+      "Id": "Param249",
+      "GroupId": "",
+      "Name": "EF_Back_h_a"
+    },
+    {
+      "Id": "Param25",
+      "GroupId": "",
+      "Name": "花2"
+    },
+    {
+      "Id": "Param250",
+      "GroupId": "",
+      "Name": "EF_Back_h_a_1"
+    },
+    {
+      "Id": "Param251",
+      "GroupId": "",
+      "Name": "EF_Back_h_b"
+    },
+    {
+      "Id": "Param252",
+      "GroupId": "",
+      "Name": "EF_Back_h_b_1"
+    },
+    {
+      "Id": "Param253",
+      "GroupId": "",
+      "Name": "EF_Back_Flw_n"
+    },
+    {
+      "Id": "Param254",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_aa"
+    },
+    {
+      "Id": "Param255",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_aa_1"
+    },
+    {
+      "Id": "Param256",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ac"
+    },
+    {
+      "Id": "Param257",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ac_1"
+    },
+    {
+      "Id": "Param258",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ad"
+    },
+    {
+      "Id": "Param259",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ad_1"
+    },
+    {
+      "Id": "Param26",
+      "GroupId": "",
+      "Name": "袖1"
+    },
+    {
+      "Id": "Param260",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ae"
+    },
+    {
+      "Id": "Param261",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ae_1"
+    },
+    {
+      "Id": "Param262",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_af"
+    },
+    {
+      "Id": "Param263",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_af_1"
+    },
+    {
+      "Id": "Param264",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ag"
+    },
+    {
+      "Id": "Param265",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ag_1"
+    },
+    {
+      "Id": "Param266",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ah"
+    },
+    {
+      "Id": "Param267",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ah_1"
+    },
+    {
+      "Id": "Param268",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ai"
+    },
+    {
+      "Id": "Param269",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ai_1"
+    },
+    {
+      "Id": "Param27",
+      "GroupId": "",
+      "Name": "袖2"
+    },
+    {
+      "Id": "Param270",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_aj"
+    },
+    {
+      "Id": "Param271",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_aj_1"
+    },
+    {
+      "Id": "Param272",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_al_1"
+    },
+    {
+      "Id": "Param273",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ba_1"
+    },
+    {
+      "Id": "Param274",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_al"
+    },
+    {
+      "Id": "Param275",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_bb_1"
+    },
+    {
+      "Id": "Param276",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ba"
+    },
+    {
+      "Id": "Param277",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_bc_1"
+    },
+    {
+      "Id": "Param278",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_bb"
+    },
+    {
+      "Id": "Param279",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ca_1"
+    },
+    {
+      "Id": "Param28",
+      "GroupId": "",
+      "Name": "袖Y1"
+    },
+    {
+      "Id": "Param280",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_bc"
+    },
+    {
+      "Id": "Param281",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_cb_1"
+    },
+    {
+      "Id": "Param282",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_bd"
+    },
+    {
+      "Id": "Param283",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_cc_1"
+    },
+    {
+      "Id": "Param284",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ca"
+    },
+    {
+      "Id": "Param285",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_cd_1"
+    },
+    {
+      "Id": "Param286",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_cb"
+    },
+    {
+      "Id": "Param287",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ce_1"
+    },
+    {
+      "Id": "Param288",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_cc"
+    },
+    {
+      "Id": "Param289",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_cf_1"
+    },
+    {
+      "Id": "Param29",
+      "GroupId": "",
+      "Name": "袖Y2"
+    },
+    {
+      "Id": "Param290",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_cd"
+    },
+    {
+      "Id": "Param291",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_cg_1"
+    },
+    {
+      "Id": "Param292",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ce"
+    },
+    {
+      "Id": "Param293",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ch_1"
+    },
+    {
+      "Id": "Param294",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_cf"
+    },
+    {
+      "Id": "Param295",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ci_1"
+    },
+    {
+      "Id": "Param296",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_cg"
+    },
+    {
+      "Id": "Param297",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_aa"
+    },
+    {
+      "Id": "Param298",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ch"
+    },
+    {
+      "Id": "Param299",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_ci"
+    },
+    {
+      "Id": "Param3",
+      "GroupId": "",
+      "Name": "ツインL2"
+    },
+    {
+      "Id": "Param30",
+      "GroupId": "",
+      "Name": "指L"
+    },
+    {
+      "Id": "Param300",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_aa_1"
+    },
+    {
+      "Id": "Param301",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_ac"
+    },
+    {
+      "Id": "Param302",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_ac_1"
+    },
+    {
+      "Id": "Param303",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_ab"
+    },
+    {
+      "Id": "Param304",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_ab_1"
+    },
+    {
+      "Id": "Param305",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_ad"
+    },
+    {
+      "Id": "Param306",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_ad_1"
+    },
+    {
+      "Id": "Param307",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_ba"
+    },
+    {
+      "Id": "Param308",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_ba_1"
+    },
+    {
+      "Id": "Param309",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_bb"
+    },
+    {
+      "Id": "Param31",
+      "GroupId": "",
+      "Name": "手切り替えL"
+    },
+    {
+      "Id": "Param310",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_bb_1"
+    },
+    {
+      "Id": "Param311",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_bc"
+    },
+    {
+      "Id": "Param312",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_bc_1"
+    },
+    {
+      "Id": "Param313",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_bd"
+    },
+    {
+      "Id": "Param314",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_bd_1"
+    },
+    {
+      "Id": "Param315",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_be"
+    },
+    {
+      "Id": "Param316",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_be_1"
+    },
+    {
+      "Id": "Param317",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_bf"
+    },
+    {
+      "Id": "Param318",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_bf_1"
+    },
+    {
+      "Id": "Param319",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_ca"
+    },
+    {
+      "Id": "Param32",
+      "GroupId": "",
+      "Name": "手切り替えR"
+    },
+    {
+      "Id": "Param320",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_ca_1"
+    },
+    {
+      "Id": "Param321",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_cb"
+    },
+    {
+      "Id": "Param322",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_cb_1"
+    },
+    {
+      "Id": "Param323",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_cc"
+    },
+    {
+      "Id": "Param324",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_cc_1"
+    },
+    {
+      "Id": "Param325",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_cd"
+    },
+    {
+      "Id": "Param326",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_cd_1"
+    },
+    {
+      "Id": "Param327",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_da"
+    },
+    {
+      "Id": "Param328",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_da_1"
+    },
+    {
+      "Id": "Param329",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_db"
+    },
+    {
+      "Id": "Param33",
+      "GroupId": "",
+      "Name": "指R"
+    },
+    {
+      "Id": "Param330",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_db_1"
+    },
+    {
+      "Id": "Param331",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_dc"
+    },
+    {
+      "Id": "Param332",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_dc_1"
+    },
+    {
+      "Id": "Param333",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_dd"
+    },
+    {
+      "Id": "Param334",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_dd_1"
+    },
+    {
+      "Id": "Param335",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_de"
+    },
+    {
+      "Id": "Param336",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_de_1"
+    },
+    {
+      "Id": "Param337",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_df"
+    },
+    {
+      "Id": "Param338",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_R_df_1"
+    },
+    {
+      "Id": "Param339",
+      "GroupId": "",
+      "Name": "EF_Arm_flw_L_bd_1"
+    },
+    {
+      "Id": "Param34",
+      "GroupId": "",
+      "Name": "寄り目調整"
+    },
+    {
+      "Id": "Param340",
+      "GroupId": "",
+      "Name": "EF_SK_Glow"
+    },
+    {
+      "Id": "Param341",
+      "GroupId": "",
+      "Name": "EF_SK_Light_Full"
+    },
+    {
+      "Id": "Param342",
+      "GroupId": "",
+      "Name": "EF_SK_Particle_A"
+    },
+    {
+      "Id": "Param343",
+      "GroupId": "",
+      "Name": "EF_SK_Particle_A_1"
+    },
+    {
+      "Id": "Param344",
+      "GroupId": "",
+      "Name": "EF_SK_Glow_1"
+    },
+    {
+      "Id": "Param345",
+      "GroupId": "",
+      "Name": "EF_SK_Light_Full_1"
+    },
+    {
+      "Id": "Param346",
+      "GroupId": "",
+      "Name": "EF_SK_Leaf_a"
+    },
+    {
+      "Id": "Param348",
+      "GroupId": "",
+      "Name": "EF_SK_Particle_A_2"
+    },
+    {
+      "Id": "Param349",
+      "GroupId": "",
+      "Name": "EF_SK_Light_Full_2"
+    },
+    {
+      "Id": "Param35",
+      "GroupId": "",
+      "Name": "頭移動X"
+    },
+    {
+      "Id": "Param354",
+      "GroupId": "",
+      "Name": "EF_SK_Particle_A_3"
+    },
+    {
+      "Id": "Param357",
+      "GroupId": "",
+      "Name": "EF_SK_Particle_A_4"
+    },
+    {
+      "Id": "Param36",
+      "GroupId": "",
+      "Name": "頭移動Y"
+    },
+    {
+      "Id": "Param363",
+      "GroupId": "",
+      "Name": "EF_SK_LF_AA"
+    },
+    {
+      "Id": "Param364",
+      "GroupId": "",
+      "Name": "EF_SK_LF_BB"
+    },
+    {
+      "Id": "Param365",
+      "GroupId": "",
+      "Name": "EF_SK_LF_CC"
+    },
+    {
+      "Id": "Param366",
+      "GroupId": "",
+      "Name": "EF_SK_LF_AA_1"
+    },
+    {
+      "Id": "Param367",
+      "GroupId": "",
+      "Name": "EF_SK_LF_BB_1"
+    },
+    {
+      "Id": "Param368",
+      "GroupId": "",
+      "Name": "EF_SK_LF_CC_1"
+    },
+    {
+      "Id": "Param369",
+      "GroupId": "",
+      "Name": "EF_SK_LF_BB_2"
+    },
+    {
+      "Id": "Param37",
+      "GroupId": "",
+      "Name": "花OFF"
+    },
+    {
+      "Id": "Param370",
+      "GroupId": "",
+      "Name": "EF_SK_LF_CC_2"
+    },
+    {
+      "Id": "Param371",
+      "GroupId": "",
+      "Name": "EF_SK_Leaf_B_3"
+    },
+    {
+      "Id": "Param375",
+      "GroupId": "",
+      "Name": "EF_SK_Particle_A_11"
+    },
+    {
+      "Id": "Param376",
+      "GroupId": "",
+      "Name": "EF_SK_Particle_A_12"
+    },
+    {
+      "Id": "Param377",
+      "GroupId": "",
+      "Name": "EF_Skill_Center"
+    },
+    {
+      "Id": "Param38",
+      "GroupId": "",
+      "Name": "目幅"
+    },
+    {
+      "Id": "Param39",
+      "GroupId": "",
+      "Name": "手サイズ"
+    },
+    {
+      "Id": "Param4",
+      "GroupId": "",
+      "Name": "ツインL3"
+    },
+    {
+      "Id": "Param40",
+      "GroupId": "",
+      "Name": "胸幅"
+    },
+    {
+      "Id": "Param41",
+      "GroupId": "",
+      "Name": "泣きはらし"
+    },
+    {
+      "Id": "Param42",
+      "GroupId": "",
+      "Name": "涙うるうる表示"
+    },
+    {
+      "Id": "Param43",
+      "GroupId": "",
+      "Name": "花枯れる"
+    },
+    {
+      "Id": "Param44",
+      "GroupId": "",
+      "Name": "花A Z"
+    },
+    {
+      "Id": "Param45",
+      "GroupId": "",
+      "Name": "花Aサイズ"
+    },
+    {
+      "Id": "Param46",
+      "GroupId": "",
+      "Name": "Skill花ON"
+    },
+    {
+      "Id": "Param47",
+      "GroupId": "",
+      "Name": "花A X"
+    },
+    {
+      "Id": "Param48",
+      "GroupId": "",
+      "Name": "花A Y"
+    },
+    {
+      "Id": "Param49",
+      "GroupId": "",
+      "Name": "肩内側"
+    },
+    {
+      "Id": "Param5",
+      "GroupId": "",
+      "Name": "髪リボン1"
+    },
+    {
+      "Id": "Param50",
+      "GroupId": "",
+      "Name": "花Bサイズ"
+    },
+    {
+      "Id": "Param51",
+      "GroupId": "",
+      "Name": "花B Z"
+    },
+    {
+      "Id": "Param52",
+      "GroupId": "",
+      "Name": "花B X"
+    },
+    {
+      "Id": "Param53",
+      "GroupId": "",
+      "Name": "花B Y"
+    },
+    {
+      "Id": "Param54",
+      "GroupId": "",
+      "Name": "花角度Y"
+    },
+    {
+      "Id": "Param55",
+      "GroupId": "",
+      "Name": "手影ON"
+    },
+    {
+      "Id": "Param56",
+      "GroupId": "",
+      "Name": "袖L　Z"
+    },
+    {
+      "Id": "Param57",
+      "GroupId": "",
+      "Name": "袖R　Z"
+    },
+    {
+      "Id": "Param58",
+      "GroupId": "",
+      "Name": "skill腕"
+    },
+    {
+      "Id": "Param59",
+      "GroupId": "",
+      "Name": "手L影OFF"
+    },
+    {
+      "Id": "Param6",
+      "GroupId": "",
+      "Name": "髪リボン2"
+    },
+    {
+      "Id": "Param60",
+      "GroupId": "",
+      "Name": "花影OFF"
+    },
+    {
+      "Id": "Param61",
+      "GroupId": "",
+      "Name": "花枯れ　EF1"
+    },
+    {
+      "Id": "Param62",
+      "GroupId": "",
+      "Name": "花枯れ　EF2"
+    },
+    {
+      "Id": "Param63",
+      "GroupId": "",
+      "Name": "袖補正R"
+    },
+    {
+      "Id": "Param64",
+      "GroupId": "",
+      "Name": "袖補正L"
+    },
+    {
+      "Id": "Param65",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_a"
+    },
+    {
+      "Id": "Param66",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_a_1"
+    },
+    {
+      "Id": "Param67",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_b"
+    },
+    {
+      "Id": "Param68",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_b_1"
+    },
+    {
+      "Id": "Param69",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_c"
+    },
+    {
+      "Id": "Param7",
+      "GroupId": "",
+      "Name": "ツインR1"
+    },
+    {
+      "Id": "Param70",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_c_1"
+    },
+    {
+      "Id": "Param71",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_d"
+    },
+    {
+      "Id": "Param72",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_d_1"
+    },
+    {
+      "Id": "Param73",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_e"
+    },
+    {
+      "Id": "Param74",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_e_1"
+    },
+    {
+      "Id": "Param75",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_f"
+    },
+    {
+      "Id": "Param76",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_f_1"
+    },
+    {
+      "Id": "Param77",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_g"
+    },
+    {
+      "Id": "Param78",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_g_1"
+    },
+    {
+      "Id": "Param79",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_h"
+    },
+    {
+      "Id": "Param8",
+      "GroupId": "",
+      "Name": "ツインR2"
+    },
+    {
+      "Id": "Param80",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_h_1"
+    },
+    {
+      "Id": "Param81",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_i"
+    },
+    {
+      "Id": "Param82",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_i_1"
+    },
+    {
+      "Id": "Param83",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_j"
+    },
+    {
+      "Id": "Param84",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer_effect_j_1"
+    },
+    {
+      "Id": "Param85",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_splash_b"
+    },
+    {
+      "Id": "Param86",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_splash_b_1"
+    },
+    {
+      "Id": "Param87",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_splash_c"
+    },
+    {
+      "Id": "Param88",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_splash_c_1"
+    },
+    {
+      "Id": "Param89",
+      "GroupId": "",
+      "Name": "EF_Skill_Full_Rot"
+    },
+    {
+      "Id": "Param9",
+      "GroupId": "",
+      "Name": "ツインR3"
+    },
+    {
+      "Id": "Param90",
+      "GroupId": "",
+      "Name": "L_forearm_sleeve_outer"
+    },
+    {
+      "Id": "Param91",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_a"
+    },
+    {
+      "Id": "Param92",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_a_1"
+    },
+    {
+      "Id": "Param93",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_b"
+    },
+    {
+      "Id": "Param94",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_b_1"
+    },
+    {
+      "Id": "Param95",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_c"
+    },
+    {
+      "Id": "Param96",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_c_1"
+    },
+    {
+      "Id": "Param97",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_f"
+    },
+    {
+      "Id": "Param98",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_f_1"
+    },
+    {
+      "Id": "Param99",
+      "GroupId": "",
+      "Name": "R_forearm_sleeve_outer_effect_g"
+    },
+    {
+      "Id": "ParamAngleZ",
+      "GroupId": "",
+      "Name": "頭 Z"
+    },
+    {
+      "Id": "ParamArmHandLX",
+      "GroupId": "",
+      "Name": "手 L 捻り"
+    },
+    {
+      "Id": "ParamArmHandLY",
+      "GroupId": "",
+      "Name": "手 L 奥行き"
+    },
+    {
+      "Id": "ParamArmHandLZ",
+      "GroupId": "",
+      "Name": "手 L 回転"
+    },
+    {
+      "Id": "ParamArmHandRX",
+      "GroupId": "",
+      "Name": "手 R 捻り"
+    },
+    {
+      "Id": "ParamArmHandRZ",
+      "GroupId": "",
+      "Name": "手 R 回転"
+    },
+    {
+      "Id": "ParamArmLowerLY",
+      "GroupId": "",
+      "Name": "前腕 L 奥行き"
+    },
+    {
+      "Id": "ParamArmLowerLZ",
+      "GroupId": "",
+      "Name": "前腕 L 回転"
+    },
+    {
+      "Id": "ParamArmLowerRY",
+      "GroupId": "",
+      "Name": "前腕 R 奥行き"
+    },
+    {
+      "Id": "ParamArmLowerRZ",
+      "GroupId": "",
+      "Name": "前腕 R 回転"
+    },
+    {
+      "Id": "ParamArmUpperLY",
+      "GroupId": "",
+      "Name": "上腕 L 奥行き"
+    },
+    {
+      "Id": "ParamArmUpperLZ",
+      "GroupId": "",
+      "Name": "上腕 L 回転"
+    },
+    {
+      "Id": "ParamArmUpperRY",
+      "GroupId": "",
+      "Name": "上腕 R 奥行き"
+    },
+    {
+      "Id": "ParamArmUpperRZ",
+      "GroupId": "",
+      "Name": "上腕 R 回転"
+    },
+    {
+      "Id": "ParamBodyLowerAngleX",
+      "GroupId": "",
+      "Name": "下半身 X"
+    },
+    {
+      "Id": "ParamBodyLowerAngleY",
+      "GroupId": "",
+      "Name": "下半身 Y"
+    },
+    {
+      "Id": "ParamBodyLowerAngleZ",
+      "GroupId": "",
+      "Name": "下半身 Z"
+    },
+    {
+      "Id": "ParamBodyUpperAngleZ",
+      "GroupId": "",
+      "Name": "上半身 Z"
+    },
+    {
+      "Id": "ParamBreath",
+      "GroupId": "",
+      "Name": "呼吸"
+    },
+    {
+      "Id": "ParamBrowLAngle",
+      "GroupId": "",
+      "Name": "眉　角度 L"
+    },
+    {
+      "Id": "ParamBrowLForm",
+      "GroupId": "",
+      "Name": "眉　変形 L"
+    },
+    {
+      "Id": "ParamBrowLY",
+      "GroupId": "",
+      "Name": "眉　上下 L"
+    },
+    {
+      "Id": "ParamBrowRAngle",
+      "GroupId": "",
+      "Name": "眉　角度 R"
+    },
+    {
+      "Id": "ParamBrowRForm",
+      "GroupId": "",
+      "Name": "眉　変形 R"
+    },
+    {
+      "Id": "ParamBrowRY",
+      "GroupId": "",
+      "Name": "眉　上下 R"
+    },
+    {
+      "Id": "ParamCheek",
+      "GroupId": "",
+      "Name": "照れ"
+    },
+    {
+      "Id": "ParamEyeLOpen",
+      "GroupId": "",
+      "Name": "目　開閉 L"
+    },
+    {
+      "Id": "ParamEyeLSmile",
+      "GroupId": "",
+      "Name": "目　笑顔 L"
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "GroupId": "",
+      "Name": "目　開閉 R"
+    },
+    {
+      "Id": "ParamEyeRSmile",
+      "GroupId": "",
+      "Name": "目　笑顔 R"
+    },
+    {
+      "Id": "ParamHairBack1",
+      "GroupId": "",
+      "Name": "髪揺れ B1"
+    },
+    {
+      "Id": "ParamHairBack2",
+      "GroupId": "",
+      "Name": "髪揺れ B2"
+    },
+    {
+      "Id": "ParamHairFront1",
+      "GroupId": "",
+      "Name": "髪揺れ C1"
+    },
+    {
+      "Id": "ParamHairFront2",
+      "GroupId": "",
+      "Name": "髪揺れ C2"
+    },
+    {
+      "Id": "ParamHairSideL1",
+      "GroupId": "",
+      "Name": "髪揺れ L1"
+    },
+    {
+      "Id": "ParamHairSideL2",
+      "GroupId": "",
+      "Name": "髪揺れ L2"
+    },
+    {
+      "Id": "ParamHairSideR1",
+      "GroupId": "",
+      "Name": "髪揺れ R1"
+    },
+    {
+      "Id": "ParamHairSideR2",
+      "GroupId": "",
+      "Name": "髪揺れ R2"
+    },
+    {
+      "Id": "ParamHighLight1",
+      "GroupId": "",
+      "Name": "ハイライト揺れ1"
+    },
+    {
+      "Id": "ParamHighLight2",
+      "GroupId": "",
+      "Name": "ハイライト揺れ2"
+    },
+    {
+      "Id": "ParamMouthForm",
+      "GroupId": "",
+      "Name": "口　変形"
+    },
+    {
+      "Id": "ParamMouthOpenY",
+      "GroupId": "",
+      "Name": "口　開閉"
+    },
+    {
+      "Id": "ParamMouthSize",
+      "GroupId": "",
+      "Name": "口　拡縮"
+    },
+    {
+      "Id": "ParamNeckZ",
+      "GroupId": "",
+      "Name": "首 Z"
+    },
+    {
+      "Id": "ParamShoulderL",
+      "GroupId": "",
+      "Name": "肩 L"
+    },
+    {
+      "Id": "ParamShoulderR",
+      "GroupId": "",
+      "Name": "肩 R"
+    },
+    {
+      "Id": "ParamTearsDrop",
+      "GroupId": "",
+      "Name": "涙　あご"
+    },
+    {
+      "Id": "ParamTearsIn",
+      "GroupId": "",
+      "Name": "涙　表示"
+    },
+    {
+      "Id": "ParamTearsL",
+      "GroupId": "",
+      "Name": "涙　流れL"
+    },
+    {
+      "Id": "ParamTearsR",
+      "GroupId": "",
+      "Name": "涙　流れR"
+    },
+    {
+      "Id": "ParamTearsYure1",
+      "GroupId": "",
+      "Name": "涙　揺れ1"
+    },
+    {
+      "Id": "ParamTearsYure2",
+      "GroupId": "",
+      "Name": "涙　揺れ2"
+    },
+    {
+      "Id": "ParamWaistZ",
+      "GroupId": "",
+      "Name": "腰Z"
+    },
+    {
+      "Id": "ParamYureHairFront",
+      "GroupId": "",
+      "Name": "物理演算　前髪"
+    },
+    {
+      "Id": "ParamYureParts",
+      "GroupId": "",
+      "Name": "物理演算　他"
+    }
+  ],
+  "ParameterGroups": [],
+  "Parts": [
+    {
+      "Id": "Arm_L_G",
+      "Name": "Character"
+    },
+    {
+      "Id": "Arm_R_G",
+      "Name": "スキルメモ"
+    },
+    {
+      "Id": "Body_G",
+      "Name": "Head_G"
+    },
+    {
+      "Id": "body_ribbon",
+      "Name": "hand_LB"
+    },
+    {
+      "Id": "B_L_ribbon_Skinning",
+      "Name": "neck_ribbon"
+    },
+    {
+      "Id": "B_R_ribbon_Skinning",
+      "Name": "hand_L"
+    },
+    {
+      "Id": "Character",
+      "Name": "メモ"
+    },
+    {
+      "Id": "CHR_000105",
+      "Name": "UI"
+    },
+    {
+      "Id": "EF_Arm_Flower_L",
+      "Name": "EF_Arm_Flower_L"
+    },
+    {
+      "Id": "EF_Arm_Flower_R",
+      "Name": "EF_Arm_Flower_R"
+    },
+    {
+      "Id": "EF_Back",
+      "Name": "EF_Back"
+    },
+    {
+      "Id": "EF_Front_Flower",
+      "Name": "EF_Front_Flower"
+    },
+    {
+      "Id": "EF_Skill",
+      "Name": "EF_Skill"
+    },
+    {
+      "Id": "eye_L",
+      "Name": "hair_F_side"
+    },
+    {
+      "Id": "eye_R",
+      "Name": "hair_F_C"
+    },
+    {
+      "Id": "Face_G",
+      "Name": "Body_G"
+    },
+    {
+      "Id": "hair_F",
+      "Name": "Arm_L_G"
+    },
+    {
+      "Id": "hair_F_C",
+      "Name": "body_ribbon"
+    },
+    {
+      "Id": "hair_F_side",
+      "Name": "B_R_ribbon(スキニング)"
+    },
+    {
+      "Id": "hand_flower",
+      "Name": "R_twintail"
+    },
+    {
+      "Id": "hand_flower_dark",
+      "Name": "L_twintail"
+    },
+    {
+      "Id": "hand_L",
+      "Name": "L_forearm_sleeve_outer_effect"
+    },
+    {
+      "Id": "hand_LB",
+      "Name": "R_forearm_sleeve_splash"
+    },
+    {
+      "Id": "hand_R",
+      "Name": "hand_flower"
+    },
+    {
+      "Id": "hand_RB",
+      "Name": "hand_flower_dark"
+    },
+    {
+      "Id": "hand_RC",
+      "Name": "R_forearm_sleeve_outer_effect"
+    },
+    {
+      "Id": "Head_G",
+      "Name": "CHR_000105"
+    },
+    {
+      "Id": "L_forearm_sleeve_outer_effect",
+      "Name": "hand_RB"
+    },
+    {
+      "Id": "L_forearm_sleeve_splash",
+      "Name": "hand_R"
+    },
+    {
+      "Id": "L_twintail",
+      "Name": "Skirt_G"
+    },
+    {
+      "Id": "L_twintail_ribbon",
+      "Name": "eye_R"
+    },
+    {
+      "Id": "Mouth_G",
+      "Name": "Tears"
+    },
+    {
+      "Id": "neck_ribbon",
+      "Name": "L_forearm_sleeve_splash"
+    },
+    {
+      "Id": "Part3",
+      "Name": "CHR_000105_［小さな勇気］ナターシャ_import_01.psd"
+    },
+    {
+      "Id": "Part4",
+      "Name": "CHR_000105_EF_01.psd"
+    },
+    {
+      "Id": "R_forearm_sleeve_outer_effect",
+      "Name": "Face_G"
+    },
+    {
+      "Id": "R_forearm_sleeve_splash",
+      "Name": "hand_RC"
+    },
+    {
+      "Id": "R_twintail",
+      "Name": "hair_F"
+    },
+    {
+      "Id": "R_twintail_ribbon",
+      "Name": "eye_L"
+    },
+    {
+      "Id": "Skirt_G",
+      "Name": "Arm_R_G"
+    },
+    {
+      "Id": "Tears",
+      "Name": "B_L_ribbon(スキニング)"
+    }
+  ]
+}

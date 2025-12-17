@@ -1,0 +1,27 @@
+{
+  "Version": 3,
+  "Name": "GachaEquipmentBackground",
+  "FileReferences": {
+    "Moc": "GachaEquipmentBackground.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "GachaEquipmentBackground.physics3.json",
+    "Pose": null,
+    "DisplayInfo": null,
+    "Motions": {},
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": []
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": []
+    }
+  ]
+}
