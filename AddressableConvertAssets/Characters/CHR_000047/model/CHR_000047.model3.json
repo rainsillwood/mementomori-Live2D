@@ -1,14 +1,14 @@
 {
   "Version": 3,
-  "Name": "CHR_000085",
+  "Name": "CHR_000047",
   "FileReferences": {
-    "Moc": "CHR_000085.moc3",
+    "Moc": "CHR_000047.moc3",
     "Textures": [
       "textures/texture_00.png"
     ],
-    "Physics": "CHR_000085.physics3.json",
+    "Physics": "CHR_000047.physics3.json",
     "Pose": null,
-    "DisplayInfo": "CHR_000085.cdi3.json",
+    "DisplayInfo": "CHR_000047.cdi3.json",
     "Motions": {
       "EF_Idle": [
         {
@@ -18,11 +18,6 @@
       "Face_Angry": [
         {
           "File": "motions/Face_Angry.motion3.json"
-        }
-      ],
-      "Face_Blushing": [
-        {
-          "File": "motions/Face_Blushing.motion3.json"
         }
       ],
       "Face_Eye_Close": [
@@ -75,14 +70,14 @@
           "File": "motions/Face_Surprise.motion3.json"
         }
       ],
+      "Face_Tears": [
+        {
+          "File": "motions/Face_Tears.motion3.json"
+        }
+      ],
       "Face_Unique1": [
         {
           "File": "motions/Face_Unique1.motion3.json"
-        }
-      ],
-      "Face_Unique2": [
-        {
-          "File": "motions/Face_Unique2.motion3.json"
         }
       ],
       "Idle": [
@@ -93,26 +88,6 @@
       "Idle_Action": [
         {
           "File": "motions/Idle_Action.motion3.json"
-        }
-      ],
-      "Loop1": [
-        {
-          "File": "motions/Loop1.motion3.json"
-        }
-      ],
-      "Loop2": [
-        {
-          "File": "motions/Loop2.motion3.json"
-        }
-      ],
-      "Loop3": [
-        {
-          "File": "motions/Loop3.motion3.json"
-        }
-      ],
-      "Loop4": [
-        {
-          "File": "motions/Loop4.motion3.json"
         }
       ],
       "Memory_In": [
@@ -133,11 +108,6 @@
       "Memory_Out_End": [
         {
           "File": "motions/Memory_Out_End.motion3.json"
-        }
-      ],
-      "Monologue_Loop": [
-        {
-          "File": "motions/Monologue_Loop.motion3.json"
         }
       ],
       "Skill": [
@@ -168,8 +138,6 @@
       "Target": "Parameter",
       "Name": "EyeBlink",
       "Ids": [
-        "ParamEyeOpenUpaL",
-        "ParamEyeOpenUpaR",
         "ParamEyeLOpen",
         "ParamEyeROpen"
       ]

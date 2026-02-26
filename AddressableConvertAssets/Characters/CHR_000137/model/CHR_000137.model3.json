@@ -1,14 +1,14 @@
 {
   "Version": 3,
-  "Name": "CHR_000085",
+  "Name": "CHR_000137",
   "FileReferences": {
-    "Moc": "CHR_000085.moc3",
+    "Moc": "CHR_000137.moc3",
     "Textures": [
       "textures/texture_00.png"
     ],
-    "Physics": "CHR_000085.physics3.json",
+    "Physics": "CHR_000137.physics3.json",
     "Pose": null,
-    "DisplayInfo": "CHR_000085.cdi3.json",
+    "DisplayInfo": "CHR_000137.cdi3.json",
     "Motions": {
       "EF_Idle": [
         {
@@ -75,6 +75,16 @@
           "File": "motions/Face_Surprise.motion3.json"
         }
       ],
+      "Face_TearDrop": [
+        {
+          "File": "motions/Face_TearDrop.motion3.json"
+        }
+      ],
+      "Face_Tears": [
+        {
+          "File": "motions/Face_Tears.motion3.json"
+        }
+      ],
       "Face_Unique1": [
         {
           "File": "motions/Face_Unique1.motion3.json"
@@ -95,26 +105,6 @@
           "File": "motions/Idle_Action.motion3.json"
         }
       ],
-      "Loop1": [
-        {
-          "File": "motions/Loop1.motion3.json"
-        }
-      ],
-      "Loop2": [
-        {
-          "File": "motions/Loop2.motion3.json"
-        }
-      ],
-      "Loop3": [
-        {
-          "File": "motions/Loop3.motion3.json"
-        }
-      ],
-      "Loop4": [
-        {
-          "File": "motions/Loop4.motion3.json"
-        }
-      ],
       "Memory_In": [
         {
           "File": "motions/Memory_In.motion3.json"
@@ -133,11 +123,6 @@
       "Memory_Out_End": [
         {
           "File": "motions/Memory_Out_End.motion3.json"
-        }
-      ],
-      "Monologue_Loop": [
-        {
-          "File": "motions/Monologue_Loop.motion3.json"
         }
       ],
       "Skill": [
@@ -168,8 +153,6 @@
       "Target": "Parameter",
       "Name": "EyeBlink",
       "Ids": [
-        "ParamEyeOpenUpaL",
-        "ParamEyeOpenUpaR",
         "ParamEyeLOpen",
         "ParamEyeROpen"
       ]

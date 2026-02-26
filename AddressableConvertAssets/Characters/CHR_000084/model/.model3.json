@@ -120,6 +120,11 @@
           "File": "motions/Memory_Out.anim.motion3.json"
         }
       ],
+      "Monologue_Loop.anim": [
+        {
+          "File": "motions/Monologue_Loop.anim.motion3.json"
+        }
+      ],
       "Skill.anim": [
         {
           "File": "motions/Skill.anim.motion3.json"
