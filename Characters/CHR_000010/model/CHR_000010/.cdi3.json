@@ -1,0 +1,845 @@
+{
+  "Version": 3,
+  "Parameters": [
+    {
+      "Id": "EF_L_U_P",
+      "GroupId": "",
+      "Name": "EF_L_U_P"
+    },
+    {
+      "Id": "EyeTracking_ParamAngleX",
+      "GroupId": "",
+      "Name": "頭 X"
+    },
+    {
+      "Id": "EyeTracking_ParamAngleY",
+      "GroupId": "",
+      "Name": "頭 Y"
+    },
+    {
+      "Id": "EyeTracking_ParamBodyLowerAngleY",
+      "GroupId": "",
+      "Name": "下半身 Y"
+    },
+    {
+      "Id": "EyeTracking_ParamBodyUpperAngleX",
+      "GroupId": "",
+      "Name": "上半身 X"
+    },
+    {
+      "Id": "EyeTracking_ParamBodyUpperAngleY",
+      "GroupId": "",
+      "Name": "上半身 Y"
+    },
+    {
+      "Id": "EyeTracking_ParamEyeBallX",
+      "GroupId": "",
+      "Name": "目玉 X"
+    },
+    {
+      "Id": "EyeTracking_ParamEyeBallY",
+      "GroupId": "",
+      "Name": "目玉 Y"
+    },
+    {
+      "Id": "Param",
+      "GroupId": "",
+      "Name": "腰Z"
+    },
+    {
+      "Id": "Param10",
+      "GroupId": "",
+      "Name": "リボン揺れ2"
+    },
+    {
+      "Id": "Param11",
+      "GroupId": "",
+      "Name": "スカートY1"
+    },
+    {
+      "Id": "Param12",
+      "GroupId": "",
+      "Name": "スカートY2"
+    },
+    {
+      "Id": "Param13",
+      "GroupId": "",
+      "Name": "スカート揺れ1"
+    },
+    {
+      "Id": "Param14",
+      "GroupId": "",
+      "Name": "スカート揺れ2"
+    },
+    {
+      "Id": "Param15",
+      "GroupId": "",
+      "Name": "髪　重力"
+    },
+    {
+      "Id": "Param16",
+      "GroupId": "",
+      "Name": "足EF"
+    },
+    {
+      "Id": "Param17",
+      "GroupId": "",
+      "Name": "足EF2"
+    },
+    {
+      "Id": "Param18",
+      "GroupId": "",
+      "Name": "アーマーL X"
+    },
+    {
+      "Id": "Param19",
+      "GroupId": "",
+      "Name": "アーマーL Y"
+    },
+    {
+      "Id": "Param2",
+      "GroupId": "",
+      "Name": "髪揺れ R0"
+    },
+    {
+      "Id": "Param20",
+      "GroupId": "",
+      "Name": "尻尾揺れ"
+    },
+    {
+      "Id": "Param21",
+      "GroupId": "",
+      "Name": "尻尾揺れ2"
+    },
+    {
+      "Id": "Param22",
+      "GroupId": "",
+      "Name": "アーマーR　X"
+    },
+    {
+      "Id": "Param23",
+      "GroupId": "",
+      "Name": "アーマーR　Y"
+    },
+    {
+      "Id": "Param24",
+      "GroupId": "",
+      "Name": "足L　X"
+    },
+    {
+      "Id": "Param25",
+      "GroupId": "",
+      "Name": "足L　Y"
+    },
+    {
+      "Id": "Param26",
+      "GroupId": "",
+      "Name": "足R　X"
+    },
+    {
+      "Id": "Param27",
+      "GroupId": "",
+      "Name": "足R　Y"
+    },
+    {
+      "Id": "Param28",
+      "GroupId": "",
+      "Name": "全体Z"
+    },
+    {
+      "Id": "Param29",
+      "GroupId": "",
+      "Name": "アーマーZ"
+    },
+    {
+      "Id": "Param3",
+      "GroupId": "",
+      "Name": "髪揺れ　L0"
+    },
+    {
+      "Id": "Param30",
+      "GroupId": "",
+      "Name": "手L　握る"
+    },
+    {
+      "Id": "Param31",
+      "GroupId": "",
+      "Name": "手R 握る"
+    },
+    {
+      "Id": "Param32",
+      "GroupId": "",
+      "Name": "布揺れ1"
+    },
+    {
+      "Id": "Param33",
+      "GroupId": "",
+      "Name": "布揺れ2"
+    },
+    {
+      "Id": "Param34",
+      "GroupId": "",
+      "Name": "布めくれ"
+    },
+    {
+      "Id": "Param35",
+      "GroupId": "",
+      "Name": "目玉拡縮"
+    },
+    {
+      "Id": "Param36",
+      "GroupId": "",
+      "Name": "アーマー幅"
+    },
+    {
+      "Id": "Param37",
+      "GroupId": "",
+      "Name": "布L X"
+    },
+    {
+      "Id": "Param38",
+      "GroupId": "",
+      "Name": "布L Y"
+    },
+    {
+      "Id": "Param39",
+      "GroupId": "",
+      "Name": "瞳孔拡縮"
+    },
+    {
+      "Id": "Param4",
+      "GroupId": "",
+      "Name": "耳揺れ1"
+    },
+    {
+      "Id": "Param40",
+      "GroupId": "",
+      "Name": "アーマー高さ"
+    },
+    {
+      "Id": "Param41",
+      "GroupId": "",
+      "Name": "足　切り替え"
+    },
+    {
+      "Id": "Param42",
+      "GroupId": "",
+      "Name": "目　発光"
+    },
+    {
+      "Id": "Param43",
+      "GroupId": "",
+      "Name": "下腿　R　長さ"
+    },
+    {
+      "Id": "Param44",
+      "GroupId": "",
+      "Name": "上半身サイズ"
+    },
+    {
+      "Id": "Param45",
+      "GroupId": "",
+      "Name": "フードL"
+    },
+    {
+      "Id": "Param46",
+      "GroupId": "",
+      "Name": "上腕描画順L"
+    },
+    {
+      "Id": "Param47",
+      "GroupId": "",
+      "Name": "サイド髪描画順R"
+    },
+    {
+      "Id": "Param48",
+      "GroupId": "",
+      "Name": "アーマーL描画順"
+    },
+    {
+      "Id": "Param49",
+      "GroupId": "",
+      "Name": "アーマーR描画順"
+    },
+    {
+      "Id": "Param5",
+      "GroupId": "",
+      "Name": "耳揺れ2"
+    },
+    {
+      "Id": "Param50",
+      "GroupId": "",
+      "Name": "布R　X"
+    },
+    {
+      "Id": "Param51",
+      "GroupId": "",
+      "Name": "布R　Y"
+    },
+    {
+      "Id": "Param52",
+      "GroupId": "",
+      "Name": "布調整L"
+    },
+    {
+      "Id": "Param53",
+      "GroupId": "",
+      "Name": "胸上サイズ"
+    },
+    {
+      "Id": "Param54",
+      "GroupId": "",
+      "Name": "胸上上下"
+    },
+    {
+      "Id": "Param55",
+      "GroupId": "",
+      "Name": "首位置調整X"
+    },
+    {
+      "Id": "Param56",
+      "GroupId": "",
+      "Name": "まぶた　肌"
+    },
+    {
+      "Id": "Param57",
+      "GroupId": "",
+      "Name": "EF_L_D_P"
+    },
+    {
+      "Id": "Param58",
+      "GroupId": "",
+      "Name": "EF_R_U_P"
+    },
+    {
+      "Id": "Param59",
+      "GroupId": "",
+      "Name": "EF_R_D_P"
+    },
+    {
+      "Id": "Param6",
+      "GroupId": "",
+      "Name": "イヤリング揺れL"
+    },
+    {
+      "Id": "Param60",
+      "GroupId": "",
+      "Name": "EF_L_U_1_P"
+    },
+    {
+      "Id": "Param61",
+      "GroupId": "",
+      "Name": "EF_L_D_1_P"
+    },
+    {
+      "Id": "Param62",
+      "GroupId": "",
+      "Name": "EF_R_D_1_P"
+    },
+    {
+      "Id": "Param63",
+      "GroupId": "",
+      "Name": "EF_R_U_1_P"
+    },
+    {
+      "Id": "Param64",
+      "GroupId": "",
+      "Name": "モノローグ切り替え"
+    },
+    {
+      "Id": "Param65",
+      "GroupId": "",
+      "Name": "モノローグ腕Z"
+    },
+    {
+      "Id": "Param66",
+      "GroupId": "",
+      "Name": "モノローグ手Z"
+    },
+    {
+      "Id": "Param67",
+      "GroupId": "",
+      "Name": "モノローグひねり"
+    },
+    {
+      "Id": "Param68",
+      "GroupId": "",
+      "Name": "モノローグ指"
+    },
+    {
+      "Id": "Param69",
+      "GroupId": "",
+      "Name": "モノローグ布"
+    },
+    {
+      "Id": "Param7",
+      "GroupId": "",
+      "Name": "耳垂れ"
+    },
+    {
+      "Id": "Param73",
+      "GroupId": "",
+      "Name": "EF_Skill_1"
+    },
+    {
+      "Id": "Param74",
+      "GroupId": "",
+      "Name": "EF_Skill_2"
+    },
+    {
+      "Id": "Param8",
+      "GroupId": "",
+      "Name": "イヤリング揺れR"
+    },
+    {
+      "Id": "Param9",
+      "GroupId": "",
+      "Name": "リボン揺れ1"
+    },
+    {
+      "Id": "ParamAngleZ",
+      "GroupId": "",
+      "Name": "頭 Z"
+    },
+    {
+      "Id": "ParamArmHandLX",
+      "GroupId": "",
+      "Name": "手 L 捻り"
+    },
+    {
+      "Id": "ParamArmHandLY",
+      "GroupId": "",
+      "Name": "手 L 奥行き"
+    },
+    {
+      "Id": "ParamArmHandLZ",
+      "GroupId": "",
+      "Name": "手 L 回転"
+    },
+    {
+      "Id": "ParamArmHandRX",
+      "GroupId": "",
+      "Name": "手 R 捻り"
+    },
+    {
+      "Id": "ParamArmHandRY",
+      "GroupId": "",
+      "Name": "手 R 奥行き"
+    },
+    {
+      "Id": "ParamArmHandRZ",
+      "GroupId": "",
+      "Name": "手 R 回転"
+    },
+    {
+      "Id": "ParamArmLowerLX",
+      "GroupId": "",
+      "Name": "前腕 L 捻り"
+    },
+    {
+      "Id": "ParamArmLowerLY",
+      "GroupId": "",
+      "Name": "前腕 L 奥行き"
+    },
+    {
+      "Id": "ParamArmLowerLZ",
+      "GroupId": "",
+      "Name": "前腕 L 回転"
+    },
+    {
+      "Id": "ParamArmLowerRX",
+      "GroupId": "",
+      "Name": "前腕 R 捻り"
+    },
+    {
+      "Id": "ParamArmLowerRY",
+      "GroupId": "",
+      "Name": "前腕 R 奥行き"
+    },
+    {
+      "Id": "ParamArmLowerRZ",
+      "GroupId": "",
+      "Name": "前腕 R 回転"
+    },
+    {
+      "Id": "ParamArmUpperLX",
+      "GroupId": "",
+      "Name": "上腕 L 捻り"
+    },
+    {
+      "Id": "ParamArmUpperLY",
+      "GroupId": "",
+      "Name": "上腕 L 奥行き"
+    },
+    {
+      "Id": "ParamArmUpperLZ",
+      "GroupId": "",
+      "Name": "上腕 L 回転"
+    },
+    {
+      "Id": "ParamArmUpperRX",
+      "GroupId": "",
+      "Name": "上腕 R 捻り"
+    },
+    {
+      "Id": "ParamArmUpperRY",
+      "GroupId": "",
+      "Name": "上腕 R 奥行き"
+    },
+    {
+      "Id": "ParamArmUpperRZ",
+      "GroupId": "",
+      "Name": "上腕 R 回転"
+    },
+    {
+      "Id": "ParamBodyLowerAngleX",
+      "GroupId": "",
+      "Name": "下半身 X"
+    },
+    {
+      "Id": "ParamBodyLowerAngleZ",
+      "GroupId": "",
+      "Name": "下半身 Z"
+    },
+    {
+      "Id": "ParamBodyUpperAngleZ",
+      "GroupId": "",
+      "Name": "上半身 Z"
+    },
+    {
+      "Id": "ParamBreath",
+      "GroupId": "",
+      "Name": "呼吸"
+    },
+    {
+      "Id": "ParamBrowLAngle",
+      "GroupId": "",
+      "Name": "眉　角度 L"
+    },
+    {
+      "Id": "ParamBrowLForm",
+      "GroupId": "",
+      "Name": "眉　変形 L"
+    },
+    {
+      "Id": "ParamBrowLY",
+      "GroupId": "",
+      "Name": "眉　上下 L"
+    },
+    {
+      "Id": "ParamBrowRAngle",
+      "GroupId": "",
+      "Name": "眉　角度 R"
+    },
+    {
+      "Id": "ParamBrowRForm",
+      "GroupId": "",
+      "Name": "眉　変形 R"
+    },
+    {
+      "Id": "ParamBrowRY",
+      "GroupId": "",
+      "Name": "眉　上下 R"
+    },
+    {
+      "Id": "ParamBustX",
+      "GroupId": "",
+      "Name": "胸揺れ X"
+    },
+    {
+      "Id": "ParamBustY",
+      "GroupId": "",
+      "Name": "胸揺れ Y"
+    },
+    {
+      "Id": "ParamCheek",
+      "GroupId": "",
+      "Name": "照れ"
+    },
+    {
+      "Id": "ParamEmotion",
+      "GroupId": "",
+      "Name": "耳　感情"
+    },
+    {
+      "Id": "ParamEmotionControl",
+      "GroupId": "",
+      "Name": "【制御】耳感情"
+    },
+    {
+      "Id": "ParamEyeLOpen",
+      "GroupId": "",
+      "Name": "目　開閉 L"
+    },
+    {
+      "Id": "ParamEyeLSmile",
+      "GroupId": "",
+      "Name": "目　笑顔 L"
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "GroupId": "",
+      "Name": "目　開閉 R"
+    },
+    {
+      "Id": "ParamEyeRSmile",
+      "GroupId": "",
+      "Name": "目　笑顔 R"
+    },
+    {
+      "Id": "ParamHairBack1",
+      "GroupId": "",
+      "Name": "髪揺れ B1"
+    },
+    {
+      "Id": "ParamHairBack2",
+      "GroupId": "",
+      "Name": "髪揺れ B2"
+    },
+    {
+      "Id": "ParamHairFront1",
+      "GroupId": "",
+      "Name": "髪揺れ C1"
+    },
+    {
+      "Id": "ParamHairFront2",
+      "GroupId": "",
+      "Name": "髪揺れ C2"
+    },
+    {
+      "Id": "ParamHairSideL1",
+      "GroupId": "",
+      "Name": "髪揺れ L1"
+    },
+    {
+      "Id": "ParamHairSideL2",
+      "GroupId": "",
+      "Name": "髪揺れ L2"
+    },
+    {
+      "Id": "ParamHairSideR1",
+      "GroupId": "",
+      "Name": "髪揺れ R1"
+    },
+    {
+      "Id": "ParamHairSideR2",
+      "GroupId": "",
+      "Name": "髪揺れ R2"
+    },
+    {
+      "Id": "ParamLegFootLX",
+      "GroupId": "",
+      "Name": "足L 捻り"
+    },
+    {
+      "Id": "ParamLegFootLY",
+      "GroupId": "",
+      "Name": "足 L 奥行き"
+    },
+    {
+      "Id": "ParamLegFootLZ",
+      "GroupId": "",
+      "Name": "足 L 回転"
+    },
+    {
+      "Id": "ParamLegFootRX",
+      "GroupId": "",
+      "Name": "足 R 捻り"
+    },
+    {
+      "Id": "ParamLegFootRY",
+      "GroupId": "",
+      "Name": "足 R 奥行き"
+    },
+    {
+      "Id": "ParamLegFootRZ",
+      "GroupId": "",
+      "Name": "足 R 回転"
+    },
+    {
+      "Id": "ParamLegLowerLX",
+      "GroupId": "",
+      "Name": "下腿 L 捻り"
+    },
+    {
+      "Id": "ParamLegLowerLY",
+      "GroupId": "",
+      "Name": "下腿 L 奥行き"
+    },
+    {
+      "Id": "ParamLegLowerLZ",
+      "GroupId": "",
+      "Name": "下腿 L 回転"
+    },
+    {
+      "Id": "ParamLegLowerRX",
+      "GroupId": "",
+      "Name": "下腿 R 捻り"
+    },
+    {
+      "Id": "ParamLegLowerRY",
+      "GroupId": "",
+      "Name": "下腿 R 奥行き"
+    },
+    {
+      "Id": "ParamLegLowerRZ",
+      "GroupId": "",
+      "Name": "下腿 R 回転"
+    },
+    {
+      "Id": "ParamLegUpperLX",
+      "GroupId": "",
+      "Name": "大腿 L 捻り"
+    },
+    {
+      "Id": "ParamLegUpperLY",
+      "GroupId": "",
+      "Name": "大腿 L 奥行き"
+    },
+    {
+      "Id": "ParamLegUpperLZ",
+      "GroupId": "",
+      "Name": "大腿 L 回転"
+    },
+    {
+      "Id": "ParamLegUpperRX",
+      "GroupId": "",
+      "Name": "大腿 R 捻り"
+    },
+    {
+      "Id": "ParamLegUpperRY",
+      "GroupId": "",
+      "Name": "大腿 R 奥行き"
+    },
+    {
+      "Id": "ParamLegUpperRZ",
+      "GroupId": "",
+      "Name": "大腿 R 回転"
+    },
+    {
+      "Id": "ParamMouthForm",
+      "GroupId": "",
+      "Name": "口　変形"
+    },
+    {
+      "Id": "ParamMouthOpenY",
+      "GroupId": "",
+      "Name": "口　開閉"
+    },
+    {
+      "Id": "ParamMouthSize",
+      "GroupId": "",
+      "Name": "口　拡縮"
+    },
+    {
+      "Id": "ParamShoulderL",
+      "GroupId": "",
+      "Name": "肩 L"
+    },
+    {
+      "Id": "ParamShoulderR",
+      "GroupId": "",
+      "Name": "肩 R"
+    },
+    {
+      "Id": "ParamSizeCheck",
+      "GroupId": "",
+      "Name": "確認用拡縮"
+    },
+    {
+      "Id": "ParamYureHairFront",
+      "GroupId": "",
+      "Name": "物理演算　前髪"
+    },
+    {
+      "Id": "ParamYureParts",
+      "GroupId": "",
+      "Name": "物理演算　他"
+    },
+    {
+      "Id": "ParamYureParts2",
+      "GroupId": "",
+      "Name": "物理演算　アーマー"
+    },
+    {
+      "Id": "ParamYureTail",
+      "GroupId": "",
+      "Name": "物理演算　しっぽ"
+    }
+  ],
+  "ParameterGroups": [],
+  "Parts": [
+    {
+      "Id": "Anubis",
+      "Name": "EF_Skill"
+    },
+    {
+      "Id": "Arm_L",
+      "Name": "scale"
+    },
+    {
+      "Id": "Arm_R",
+      "Name": "Body_G"
+    },
+    {
+      "Id": "Body_G",
+      "Name": "Arm_L"
+    },
+    {
+      "Id": "EF_Skill",
+      "Name": "[ 下絵 ]"
+    },
+    {
+      "Id": "Eye_L",
+      "Name": "Hand_LB"
+    },
+    {
+      "Id": "Eye_R",
+      "Name": "Hair_G"
+    },
+    {
+      "Id": "Face_G",
+      "Name": "M_Hand_LB"
+    },
+    {
+      "Id": "Hair_G",
+      "Name": "Hand_L"
+    },
+    {
+      "Id": "Hand_L",
+      "Name": "Arm_R"
+    },
+    {
+      "Id": "Head_G",
+      "Name": "Anubis"
+    },
+    {
+      "Id": "Leg_G",
+      "Name": "Head_G"
+    },
+    {
+      "Id": "Mouth_G",
+      "Name": "Face_G"
+    },
+    {
+      "Id": "M_Hand_LB",
+      "Name": "Parts_G"
+    },
+    {
+      "Id": "Part",
+      "Name": "CHR_000029_アヌビス_import02.psd"
+    },
+    {
+      "Id": "Part2",
+      "Name": "CHR_000029_import_EF.psd"
+    },
+    {
+      "Id": "Part3",
+      "Name": "CHR_000010_EF_01.psd（対応無し）"
+    },
+    {
+      "Id": "Parts_G",
+      "Name": "Leg_G"
+    }
+  ]
+}

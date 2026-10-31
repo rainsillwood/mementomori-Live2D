@@ -1,0 +1,33 @@
+{
+  "Version": 3,
+  "Name": "CHR_000097",
+  "FileReferences": {
+    "Moc": "CHR_000097.moc3",
+    "Textures": [
+      "textures/texture_00.png"
+    ],
+    "Physics": "CHR_000097.physics3.json",
+    "Pose": null,
+    "DisplayInfo": "CHR_000097.cdi3.json",
+    "Motions": {},
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen",
+        "ParamEyeLOpen2"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}

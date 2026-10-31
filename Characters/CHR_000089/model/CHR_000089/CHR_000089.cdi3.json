@@ -1,0 +1,1588 @@
+{
+  "Version": 3,
+  "Parameters": [
+    {
+      "Id": "EyeTracking_ParamAngleX",
+      "GroupId": "",
+      "Name": "頭 X"
+    },
+    {
+      "Id": "EyeTracking_ParamAngleY",
+      "GroupId": "",
+      "Name": "頭 Y"
+    },
+    {
+      "Id": "EyeTracking_ParamAngleZX",
+      "GroupId": "",
+      "Name": "頭 Z"
+    },
+    {
+      "Id": "EyeTracking_ParamBodyUpperAngleX",
+      "GroupId": "",
+      "Name": "上半身 X"
+    },
+    {
+      "Id": "EyeTracking_ParamBodyUpperAngleY",
+      "GroupId": "",
+      "Name": "上半身 Y"
+    },
+    {
+      "Id": "EyeTracking_ParamEyeBallX",
+      "GroupId": "",
+      "Name": "目玉 X"
+    },
+    {
+      "Id": "EyeTracking_ParamEyeBallY",
+      "GroupId": "",
+      "Name": "目玉 Y"
+    },
+    {
+      "Id": "EyeTracking_ParamNeckZX",
+      "GroupId": "",
+      "Name": "首 Z"
+    },
+    {
+      "Id": "EyeTracking_ParamPhysicsX",
+      "GroupId": "",
+      "Name": "物理演算入力 X"
+    },
+    {
+      "Id": "EyeTracking_ParamPhysicsY",
+      "GroupId": "",
+      "Name": "物理演算入力 Y"
+    },
+    {
+      "Id": "LoopAlpha2",
+      "GroupId": "",
+      "Name": "LoopAlpha2"
+    },
+    {
+      "Id": "LoopAlpha3",
+      "GroupId": "",
+      "Name": "LoopAlpha3"
+    },
+    {
+      "Id": "Param",
+      "GroupId": "",
+      "Name": "ヘアリボン_揺れ1"
+    },
+    {
+      "Id": "Param10",
+      "GroupId": "",
+      "Name": "腰布_R_揺れ2"
+    },
+    {
+      "Id": "Param100",
+      "GroupId": "",
+      "Name": "泡_揺れ4"
+    },
+    {
+      "Id": "Param101",
+      "GroupId": "",
+      "Name": "前腕_R_LB_捻り"
+    },
+    {
+      "Id": "Param102",
+      "GroupId": "",
+      "Name": "親指_R_LB"
+    },
+    {
+      "Id": "Param103",
+      "GroupId": "",
+      "Name": "指_R_LB"
+    },
+    {
+      "Id": "Param104",
+      "GroupId": "",
+      "Name": "前腕_R_LB_奥行"
+    },
+    {
+      "Id": "Param105",
+      "GroupId": "",
+      "Name": "剣_不透明度"
+    },
+    {
+      "Id": "Param106",
+      "GroupId": "",
+      "Name": "前腕_L_LB_奥行"
+    },
+    {
+      "Id": "Param107",
+      "GroupId": "",
+      "Name": "軌跡_キラ4"
+    },
+    {
+      "Id": "Param108",
+      "GroupId": "",
+      "Name": "軌跡_キラ5"
+    },
+    {
+      "Id": "Param109",
+      "GroupId": "",
+      "Name": "剣_EF_描画順"
+    },
+    {
+      "Id": "Param11",
+      "GroupId": "",
+      "Name": "胸リボン_揺れ1"
+    },
+    {
+      "Id": "Param110",
+      "GroupId": "",
+      "Name": "剣_EF_X"
+    },
+    {
+      "Id": "Param111",
+      "GroupId": "",
+      "Name": "剣_EF_Y"
+    },
+    {
+      "Id": "Param112",
+      "GroupId": "",
+      "Name": "剣_不透明度"
+    },
+    {
+      "Id": "Param113",
+      "GroupId": "",
+      "Name": "手_R_X"
+    },
+    {
+      "Id": "Param114",
+      "GroupId": "",
+      "Name": "手_R_Y"
+    },
+    {
+      "Id": "Param115",
+      "GroupId": "",
+      "Name": "肩_上げる"
+    },
+    {
+      "Id": "Param116",
+      "GroupId": "",
+      "Name": "腰パーツ_調整"
+    },
+    {
+      "Id": "Param117",
+      "GroupId": "",
+      "Name": "小指_L"
+    },
+    {
+      "Id": "Param118",
+      "GroupId": "",
+      "Name": "前腕_R_長さ"
+    },
+    {
+      "Id": "Param119",
+      "GroupId": "",
+      "Name": "腕_描画順"
+    },
+    {
+      "Id": "Param12",
+      "GroupId": "",
+      "Name": "胸リボン_揺れ2"
+    },
+    {
+      "Id": "Param120",
+      "GroupId": "",
+      "Name": "腰布_描画順"
+    },
+    {
+      "Id": "Param121",
+      "GroupId": "",
+      "Name": "EF_L_hand_A_L"
+    },
+    {
+      "Id": "Param122",
+      "GroupId": "",
+      "Name": "EF_L_hand_A_L_1"
+    },
+    {
+      "Id": "Param123",
+      "GroupId": "",
+      "Name": "EF_L_hand_A_R"
+    },
+    {
+      "Id": "Param124",
+      "GroupId": "",
+      "Name": "EF_L_hand_A_R_1"
+    },
+    {
+      "Id": "Param125",
+      "GroupId": "",
+      "Name": "EF_L_hand_B_a"
+    },
+    {
+      "Id": "Param126",
+      "GroupId": "",
+      "Name": "EF_L_hand_B_a_1"
+    },
+    {
+      "Id": "Param127",
+      "GroupId": "",
+      "Name": "EF_L_hand_B_b"
+    },
+    {
+      "Id": "Param128",
+      "GroupId": "",
+      "Name": "EF_L_hand_B_b_1"
+    },
+    {
+      "Id": "Param129",
+      "GroupId": "",
+      "Name": "EF_L_hand_B_c"
+    },
+    {
+      "Id": "Param13",
+      "GroupId": "",
+      "Name": "腰リボンA_揺れ1"
+    },
+    {
+      "Id": "Param130",
+      "GroupId": "",
+      "Name": "EF_L_hand_B_c_1"
+    },
+    {
+      "Id": "Param131",
+      "GroupId": "",
+      "Name": "EF_L_hand_B_d"
+    },
+    {
+      "Id": "Param132",
+      "GroupId": "",
+      "Name": "EF_L_hand_B_d_1"
+    },
+    {
+      "Id": "Param133",
+      "GroupId": "",
+      "Name": "EF_L_hand_B_e"
+    },
+    {
+      "Id": "Param134",
+      "GroupId": "",
+      "Name": "EF_L_hand_B_e_1"
+    },
+    {
+      "Id": "Param135",
+      "GroupId": "",
+      "Name": "EF_Skill_Particle"
+    },
+    {
+      "Id": "Param136",
+      "GroupId": "",
+      "Name": "EF_Skill_Particle_1"
+    },
+    {
+      "Id": "Param137",
+      "GroupId": "",
+      "Name": "EF_Skill_Fire_a"
+    },
+    {
+      "Id": "Param138",
+      "GroupId": "",
+      "Name": "EF_Skill_Fire_b"
+    },
+    {
+      "Id": "Param139",
+      "GroupId": "",
+      "Name": "EF_Skill_Fire_b_1"
+    },
+    {
+      "Id": "Param14",
+      "GroupId": "",
+      "Name": "腰リボンA_揺れ2"
+    },
+    {
+      "Id": "Param140",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_h"
+    },
+    {
+      "Id": "Param141",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_h_1"
+    },
+    {
+      "Id": "Param142",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_i"
+    },
+    {
+      "Id": "Param143",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_i_1"
+    },
+    {
+      "Id": "Param144",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_j"
+    },
+    {
+      "Id": "Param145",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_j_1"
+    },
+    {
+      "Id": "Param146",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_c"
+    },
+    {
+      "Id": "Param147",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_c_1"
+    },
+    {
+      "Id": "Param148",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_l_1"
+    },
+    {
+      "Id": "Param149",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_l"
+    },
+    {
+      "Id": "Param15",
+      "GroupId": "",
+      "Name": "腰リボンB_揺れ1"
+    },
+    {
+      "Id": "Param150",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_d"
+    },
+    {
+      "Id": "Param151",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_d_1"
+    },
+    {
+      "Id": "Param152",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_e"
+    },
+    {
+      "Id": "Param153",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_e_1"
+    },
+    {
+      "Id": "Param154",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_f"
+    },
+    {
+      "Id": "Param155",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_f_1"
+    },
+    {
+      "Id": "Param156",
+      "GroupId": "",
+      "Name": "EF_L_foot"
+    },
+    {
+      "Id": "Param157",
+      "GroupId": "",
+      "Name": "EF_L_foot_1"
+    },
+    {
+      "Id": "Param158",
+      "GroupId": "",
+      "Name": "EF_Blade_a"
+    },
+    {
+      "Id": "Param159",
+      "GroupId": "",
+      "Name": "EF_Blade_b"
+    },
+    {
+      "Id": "Param16",
+      "GroupId": "",
+      "Name": "腰リボンB_揺れ2"
+    },
+    {
+      "Id": "Param160",
+      "GroupId": "",
+      "Name": "EF_Blade_c"
+    },
+    {
+      "Id": "Param161",
+      "GroupId": "",
+      "Name": "EF_Blade_d"
+    },
+    {
+      "Id": "Param162",
+      "GroupId": "",
+      "Name": "EF_Blade_a_1"
+    },
+    {
+      "Id": "Param163",
+      "GroupId": "",
+      "Name": "EF_Blade_b_1"
+    },
+    {
+      "Id": "Param164",
+      "GroupId": "",
+      "Name": "EF_Blade_c_1"
+    },
+    {
+      "Id": "Param165",
+      "GroupId": "",
+      "Name": "EF_Blade_d_1"
+    },
+    {
+      "Id": "Param166",
+      "GroupId": "",
+      "Name": "EF_Hand_Fire_Warp"
+    },
+    {
+      "Id": "Param167",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_m"
+    },
+    {
+      "Id": "Param168",
+      "GroupId": "",
+      "Name": "EF_Back_Flag_m_1"
+    },
+    {
+      "Id": "Param169",
+      "GroupId": "",
+      "Name": "EF_L_hand_F_a"
+    },
+    {
+      "Id": "Param17",
+      "GroupId": "",
+      "Name": "腰リボン_しわ"
+    },
+    {
+      "Id": "Param170",
+      "GroupId": "",
+      "Name": "EF_L_hand_F_a_1"
+    },
+    {
+      "Id": "Param171",
+      "GroupId": "",
+      "Name": "EF_L_hand_F_b"
+    },
+    {
+      "Id": "Param172",
+      "GroupId": "",
+      "Name": "EF_L_hand_F_b_1"
+    },
+    {
+      "Id": "Param173",
+      "GroupId": "",
+      "Name": "EF_L_hand_F_c"
+    },
+    {
+      "Id": "Param174",
+      "GroupId": "",
+      "Name": "EF_Skill_Slash"
+    },
+    {
+      "Id": "Param175",
+      "GroupId": "",
+      "Name": "EF_L_hand_F_c_1"
+    },
+    {
+      "Id": "Param176",
+      "GroupId": "",
+      "Name": "EF_R_foot"
+    },
+    {
+      "Id": "Param177",
+      "GroupId": "",
+      "Name": "EF_R_foot_1"
+    },
+    {
+      "Id": "Param178",
+      "GroupId": "",
+      "Name": "EF_Skill_Particle_2"
+    },
+    {
+      "Id": "Param179",
+      "GroupId": "",
+      "Name": "EF_Skill_Fire_b_2"
+    },
+    {
+      "Id": "Param18",
+      "GroupId": "",
+      "Name": "ドレス_L_揺れ1"
+    },
+    {
+      "Id": "Param19",
+      "GroupId": "",
+      "Name": "ドレス_L_揺れ2"
+    },
+    {
+      "Id": "Param2",
+      "GroupId": "",
+      "Name": "ヘアリボン_揺れ2"
+    },
+    {
+      "Id": "Param20",
+      "GroupId": "",
+      "Name": "全体_Z"
+    },
+    {
+      "Id": "Param21",
+      "GroupId": "",
+      "Name": "しゃがみ"
+    },
+    {
+      "Id": "Param22",
+      "GroupId": "",
+      "Name": "腰_Z"
+    },
+    {
+      "Id": "Param23",
+      "GroupId": "",
+      "Name": "親指_L"
+    },
+    {
+      "Id": "Param24",
+      "GroupId": "",
+      "Name": "指_L"
+    },
+    {
+      "Id": "Param25",
+      "GroupId": "",
+      "Name": "旗_揺れ1"
+    },
+    {
+      "Id": "Param26",
+      "GroupId": "",
+      "Name": "旗_揺れ2"
+    },
+    {
+      "Id": "Param27",
+      "GroupId": "",
+      "Name": "肩_R_X"
+    },
+    {
+      "Id": "Param28",
+      "GroupId": "",
+      "Name": "肩_R_Y"
+    },
+    {
+      "Id": "Param29",
+      "GroupId": "",
+      "Name": "下腿_長さ"
+    },
+    {
+      "Id": "Param3",
+      "GroupId": "",
+      "Name": "ヘアリボン_紐_揺れ1"
+    },
+    {
+      "Id": "Param30",
+      "GroupId": "",
+      "Name": "指_R"
+    },
+    {
+      "Id": "Param31",
+      "GroupId": "",
+      "Name": "親指_R"
+    },
+    {
+      "Id": "Param32",
+      "GroupId": "",
+      "Name": "頭位置_X"
+    },
+    {
+      "Id": "Param33",
+      "GroupId": "",
+      "Name": "頭位置_Y"
+    },
+    {
+      "Id": "Param34",
+      "GroupId": "",
+      "Name": "全体_X"
+    },
+    {
+      "Id": "Param35",
+      "GroupId": "",
+      "Name": "全体_Y"
+    },
+    {
+      "Id": "Param36",
+      "GroupId": "",
+      "Name": "左腕_切り替え"
+    },
+    {
+      "Id": "Param37",
+      "GroupId": "",
+      "Name": "左腕_下_切り替え"
+    },
+    {
+      "Id": "Param38",
+      "GroupId": "",
+      "Name": "上腕_R_LB_回転"
+    },
+    {
+      "Id": "Param39",
+      "GroupId": "",
+      "Name": "右腕_下_切り替え"
+    },
+    {
+      "Id": "Param4",
+      "GroupId": "",
+      "Name": "ヘアリボン_紐_揺れ2"
+    },
+    {
+      "Id": "Param40",
+      "GroupId": "",
+      "Name": "剣_鎖_回転"
+    },
+    {
+      "Id": "Param41",
+      "GroupId": "",
+      "Name": "手_R_LB_回転"
+    },
+    {
+      "Id": "Param42",
+      "GroupId": "",
+      "Name": "手_L_LB_回転"
+    },
+    {
+      "Id": "Param43",
+      "GroupId": "",
+      "Name": "前腕_L_LB_回転"
+    },
+    {
+      "Id": "Param44",
+      "GroupId": "",
+      "Name": "前腕_R_LB_回転"
+    },
+    {
+      "Id": "Param45",
+      "GroupId": "",
+      "Name": "手_R_LB_回転"
+    },
+    {
+      "Id": "Param46",
+      "GroupId": "",
+      "Name": "上腕_R_LB_奥行"
+    },
+    {
+      "Id": "Param47",
+      "GroupId": "",
+      "Name": "前腕_R_LB_奥行"
+    },
+    {
+      "Id": "Param48",
+      "GroupId": "",
+      "Name": "キラキラ１"
+    },
+    {
+      "Id": "Param49",
+      "GroupId": "",
+      "Name": "剣_飾り_回転"
+    },
+    {
+      "Id": "Param5",
+      "GroupId": "",
+      "Name": "腰布_L_しわ"
+    },
+    {
+      "Id": "Param50",
+      "GroupId": "",
+      "Name": "剣_飾りA1_回転"
+    },
+    {
+      "Id": "Param51",
+      "GroupId": "",
+      "Name": "剣_飾りA2_回転"
+    },
+    {
+      "Id": "Param52",
+      "GroupId": "",
+      "Name": "剣_飾りB1_回転"
+    },
+    {
+      "Id": "Param53",
+      "GroupId": "",
+      "Name": "剣_飾りB2_回転"
+    },
+    {
+      "Id": "Param54",
+      "GroupId": "",
+      "Name": "剣_飾りB3_回転"
+    },
+    {
+      "Id": "Param55",
+      "GroupId": "",
+      "Name": "剣_飾りC1_回転"
+    },
+    {
+      "Id": "Param56",
+      "GroupId": "",
+      "Name": "剣_飾C2_回転"
+    },
+    {
+      "Id": "Param57",
+      "GroupId": "",
+      "Name": "剣_飾り_捻り"
+    },
+    {
+      "Id": "Param58",
+      "GroupId": "",
+      "Name": "剣_回転"
+    },
+    {
+      "Id": "Param59",
+      "GroupId": "",
+      "Name": "剣_鎖小_回転"
+    },
+    {
+      "Id": "Param6",
+      "GroupId": "",
+      "Name": "腰布_L_揺れ1"
+    },
+    {
+      "Id": "Param60",
+      "GroupId": "",
+      "Name": "剣_捻り"
+    },
+    {
+      "Id": "Param61",
+      "GroupId": "",
+      "Name": "剣先_不透明度"
+    },
+    {
+      "Id": "Param62",
+      "GroupId": "",
+      "Name": "剣_奥行き"
+    },
+    {
+      "Id": "Param63",
+      "GroupId": "",
+      "Name": "前腕_ゆがみ"
+    },
+    {
+      "Id": "Param64",
+      "GroupId": "",
+      "Name": "左腕_下_描画順"
+    },
+    {
+      "Id": "Param65",
+      "GroupId": "",
+      "Name": "キラキラ2"
+    },
+    {
+      "Id": "Param66",
+      "GroupId": "",
+      "Name": "キラキラ3"
+    },
+    {
+      "Id": "Param67",
+      "GroupId": "",
+      "Name": "キラキラ４"
+    },
+    {
+      "Id": "Param68",
+      "GroupId": "",
+      "Name": "手_R_LB_捻り"
+    },
+    {
+      "Id": "Param69",
+      "GroupId": "",
+      "Name": "剣5_回転"
+    },
+    {
+      "Id": "Param7",
+      "GroupId": "",
+      "Name": "腰布_L_揺れ2"
+    },
+    {
+      "Id": "Param70",
+      "GroupId": "",
+      "Name": "前腕_描画順"
+    },
+    {
+      "Id": "Param71",
+      "GroupId": "",
+      "Name": "剣_軌跡"
+    },
+    {
+      "Id": "Param72",
+      "GroupId": "",
+      "Name": "腕_力を入れる"
+    },
+    {
+      "Id": "Param73",
+      "GroupId": "",
+      "Name": "キラキラ５"
+    },
+    {
+      "Id": "Param74",
+      "GroupId": "",
+      "Name": "親指_L_LB"
+    },
+    {
+      "Id": "Param75",
+      "GroupId": "",
+      "Name": "軌跡_キラ１"
+    },
+    {
+      "Id": "Param76",
+      "GroupId": "",
+      "Name": "前腕_R_LB_回転"
+    },
+    {
+      "Id": "Param77",
+      "GroupId": "",
+      "Name": "軌跡_キラ2"
+    },
+    {
+      "Id": "Param78",
+      "GroupId": "",
+      "Name": "大腿_R_X"
+    },
+    {
+      "Id": "Param79",
+      "GroupId": "",
+      "Name": "指_L_LB"
+    },
+    {
+      "Id": "Param8",
+      "GroupId": "",
+      "Name": "腰布_R_しわ"
+    },
+    {
+      "Id": "Param80",
+      "GroupId": "",
+      "Name": "軌跡_キラ3"
+    },
+    {
+      "Id": "Param81",
+      "GroupId": "",
+      "Name": "大腿_L_長さ"
+    },
+    {
+      "Id": "Param82",
+      "GroupId": "",
+      "Name": "腕_伸び"
+    },
+    {
+      "Id": "Param83",
+      "GroupId": "",
+      "Name": "前腕_L_LB_捻り"
+    },
+    {
+      "Id": "Param84",
+      "GroupId": "",
+      "Name": "大腿_R_Y"
+    },
+    {
+      "Id": "Param85",
+      "GroupId": "",
+      "Name": "手_L_描画順"
+    },
+    {
+      "Id": "Param86",
+      "GroupId": "",
+      "Name": "剣_B_X"
+    },
+    {
+      "Id": "Param87",
+      "GroupId": "",
+      "Name": "剣_B_Y"
+    },
+    {
+      "Id": "Param88",
+      "GroupId": "",
+      "Name": "前腕_L_LB_長さ"
+    },
+    {
+      "Id": "Param89",
+      "GroupId": "",
+      "Name": "剣_B_描画順"
+    },
+    {
+      "Id": "Param9",
+      "GroupId": "",
+      "Name": "腰布_R_揺れ1"
+    },
+    {
+      "Id": "Param90",
+      "GroupId": "",
+      "Name": "剣_B_拡縮"
+    },
+    {
+      "Id": "Param91",
+      "GroupId": "",
+      "Name": "手_L_エフェクト_不透明度"
+    },
+    {
+      "Id": "Param92",
+      "GroupId": "",
+      "Name": "前腕_X"
+    },
+    {
+      "Id": "Param93",
+      "GroupId": "",
+      "Name": "泡_全体_不透明度"
+    },
+    {
+      "Id": "Param94",
+      "GroupId": "",
+      "Name": "泡_G_弾ける"
+    },
+    {
+      "Id": "Param95",
+      "GroupId": "",
+      "Name": "泡_X"
+    },
+    {
+      "Id": "Param96",
+      "GroupId": "",
+      "Name": "泡_Y"
+    },
+    {
+      "Id": "Param97",
+      "GroupId": "",
+      "Name": "泡_揺れ1"
+    },
+    {
+      "Id": "Param98",
+      "GroupId": "",
+      "Name": "泡_揺れ2"
+    },
+    {
+      "Id": "Param99",
+      "GroupId": "",
+      "Name": "泡_揺れ3"
+    },
+    {
+      "Id": "ParamArmHandLX",
+      "GroupId": "",
+      "Name": "手 L 捻り"
+    },
+    {
+      "Id": "ParamArmHandLZ",
+      "GroupId": "",
+      "Name": "手 L 回転"
+    },
+    {
+      "Id": "ParamArmHandRX",
+      "GroupId": "",
+      "Name": "手 R 捻り"
+    },
+    {
+      "Id": "ParamArmHandRZ",
+      "GroupId": "",
+      "Name": "手 R 回転"
+    },
+    {
+      "Id": "ParamArmLowerLX",
+      "GroupId": "",
+      "Name": "前腕 L 捻り"
+    },
+    {
+      "Id": "ParamArmLowerLY",
+      "GroupId": "",
+      "Name": "前腕 L 奥行き"
+    },
+    {
+      "Id": "ParamArmLowerLZ",
+      "GroupId": "",
+      "Name": "前腕_Y"
+    },
+    {
+      "Id": "ParamArmLowerRX",
+      "GroupId": "",
+      "Name": "前腕 R 捻り"
+    },
+    {
+      "Id": "ParamArmLowerRY",
+      "GroupId": "",
+      "Name": "前腕 R 奥行き"
+    },
+    {
+      "Id": "ParamArmLowerRZ",
+      "GroupId": "",
+      "Name": "前腕 R 回転"
+    },
+    {
+      "Id": "ParamArmUpperLX",
+      "GroupId": "",
+      "Name": "上腕 L 捻り"
+    },
+    {
+      "Id": "ParamArmUpperLY",
+      "GroupId": "",
+      "Name": "上腕 L 奥行き"
+    },
+    {
+      "Id": "ParamArmUpperLZ",
+      "GroupId": "",
+      "Name": "上腕 L 回転"
+    },
+    {
+      "Id": "ParamArmUpperRX",
+      "GroupId": "",
+      "Name": "上腕 R 捻り"
+    },
+    {
+      "Id": "ParamArmUpperRY",
+      "GroupId": "",
+      "Name": "上腕 R 奥行き"
+    },
+    {
+      "Id": "ParamArmUpperRZ",
+      "GroupId": "",
+      "Name": "上腕 R 回転"
+    },
+    {
+      "Id": "ParamBodyLowerAngleX",
+      "GroupId": "",
+      "Name": "下半身 X"
+    },
+    {
+      "Id": "ParamBodyLowerAngleY",
+      "GroupId": "",
+      "Name": "下半身 Y"
+    },
+    {
+      "Id": "ParamBodyLowerAngleZ",
+      "GroupId": "",
+      "Name": "下半身 Z"
+    },
+    {
+      "Id": "ParamBodyUpperAngleZ",
+      "GroupId": "",
+      "Name": "上半身 Z"
+    },
+    {
+      "Id": "ParamBreath",
+      "GroupId": "",
+      "Name": "呼吸"
+    },
+    {
+      "Id": "ParamBrowLAngle",
+      "GroupId": "",
+      "Name": "眉　角度 L"
+    },
+    {
+      "Id": "ParamBrowLForm",
+      "GroupId": "",
+      "Name": "眉　変形 L"
+    },
+    {
+      "Id": "ParamBrowLY",
+      "GroupId": "",
+      "Name": "眉　上下 L"
+    },
+    {
+      "Id": "ParamBrowRAngle",
+      "GroupId": "",
+      "Name": "眉　角度 R"
+    },
+    {
+      "Id": "ParamBrowRForm",
+      "GroupId": "",
+      "Name": "眉　変形 R"
+    },
+    {
+      "Id": "ParamBrowRY",
+      "GroupId": "",
+      "Name": "眉　上下 R"
+    },
+    {
+      "Id": "ParamBustX",
+      "GroupId": "",
+      "Name": "胸揺れ X"
+    },
+    {
+      "Id": "ParamBustY",
+      "GroupId": "",
+      "Name": "胸揺れ Y"
+    },
+    {
+      "Id": "ParamCheek",
+      "GroupId": "",
+      "Name": "照れ"
+    },
+    {
+      "Id": "ParamEmotion",
+      "GroupId": "",
+      "Name": "感情表現"
+    },
+    {
+      "Id": "ParamEmotionControl",
+      "GroupId": "",
+      "Name": "【制御】 感情表現"
+    },
+    {
+      "Id": "ParamEyeLOpen",
+      "GroupId": "",
+      "Name": "目　開閉 L"
+    },
+    {
+      "Id": "ParamEyeLSmile",
+      "GroupId": "",
+      "Name": "目　笑顔 L"
+    },
+    {
+      "Id": "ParamEyeROpen",
+      "GroupId": "",
+      "Name": "目　開閉 R"
+    },
+    {
+      "Id": "ParamEyeRSmile",
+      "GroupId": "",
+      "Name": "目　笑顔 R"
+    },
+    {
+      "Id": "ParamHairBack1",
+      "GroupId": "",
+      "Name": "髪揺れ B1"
+    },
+    {
+      "Id": "ParamHairBack2",
+      "GroupId": "",
+      "Name": "髪揺れ B2"
+    },
+    {
+      "Id": "ParamHairFront1",
+      "GroupId": "",
+      "Name": "髪揺れ C1"
+    },
+    {
+      "Id": "ParamHairFront2",
+      "GroupId": "",
+      "Name": "髪揺れ C2"
+    },
+    {
+      "Id": "ParamHairSideL1",
+      "GroupId": "",
+      "Name": "髪揺れ L1"
+    },
+    {
+      "Id": "ParamHairSideL2",
+      "GroupId": "",
+      "Name": "髪揺れ L2"
+    },
+    {
+      "Id": "ParamHairSideR1",
+      "GroupId": "",
+      "Name": "髪揺れ R1"
+    },
+    {
+      "Id": "ParamHairSideR2",
+      "GroupId": "",
+      "Name": "髪揺れ R2"
+    },
+    {
+      "Id": "ParamHighLight1",
+      "GroupId": "",
+      "Name": "ハイライト揺れ1"
+    },
+    {
+      "Id": "ParamHighLight2",
+      "GroupId": "",
+      "Name": "ハイライト揺れ2"
+    },
+    {
+      "Id": "ParamLegFootLX",
+      "GroupId": "",
+      "Name": "足L 捻り"
+    },
+    {
+      "Id": "ParamLegFootLY",
+      "GroupId": "",
+      "Name": "足 L 奥行き"
+    },
+    {
+      "Id": "ParamLegFootLZ",
+      "GroupId": "",
+      "Name": "足 L 回転"
+    },
+    {
+      "Id": "ParamLegFootRX",
+      "GroupId": "",
+      "Name": "足 R 捻り"
+    },
+    {
+      "Id": "ParamLegFootRY",
+      "GroupId": "",
+      "Name": "足 R 奥行き"
+    },
+    {
+      "Id": "ParamLegFootRZ",
+      "GroupId": "",
+      "Name": "足 R 回転"
+    },
+    {
+      "Id": "ParamLegLowerLX",
+      "GroupId": "",
+      "Name": "下腿 L 捻り"
+    },
+    {
+      "Id": "ParamLegLowerLY",
+      "GroupId": "",
+      "Name": "下腿 L 奥行き"
+    },
+    {
+      "Id": "ParamLegLowerLZ",
+      "GroupId": "",
+      "Name": "下腿 L 回転"
+    },
+    {
+      "Id": "ParamLegLowerRX",
+      "GroupId": "",
+      "Name": "下腿 R 捻り"
+    },
+    {
+      "Id": "ParamLegLowerRY",
+      "GroupId": "",
+      "Name": "下腿 R 奥行き"
+    },
+    {
+      "Id": "ParamLegLowerRZ",
+      "GroupId": "",
+      "Name": "下腿 R 回転"
+    },
+    {
+      "Id": "ParamLegUpperLX",
+      "GroupId": "",
+      "Name": "大腿 L 捻り"
+    },
+    {
+      "Id": "ParamLegUpperLY",
+      "GroupId": "",
+      "Name": "大腿 L 奥行き"
+    },
+    {
+      "Id": "ParamLegUpperLZ",
+      "GroupId": "",
+      "Name": "大腿 L 回転"
+    },
+    {
+      "Id": "ParamLegUpperRX",
+      "GroupId": "",
+      "Name": "大腿 R 捻り"
+    },
+    {
+      "Id": "ParamLegUpperRY",
+      "GroupId": "",
+      "Name": "大腿 R 奥行き"
+    },
+    {
+      "Id": "ParamLegUpperRZ",
+      "GroupId": "",
+      "Name": "大腿 R 回転"
+    },
+    {
+      "Id": "ParamMouthForm",
+      "GroupId": "",
+      "Name": "口　変形"
+    },
+    {
+      "Id": "ParamMouthOpenY",
+      "GroupId": "",
+      "Name": "口　開閉"
+    },
+    {
+      "Id": "ParamMouthSize",
+      "GroupId": "",
+      "Name": "口　拡縮"
+    },
+    {
+      "Id": "ParamShoulderL",
+      "GroupId": "",
+      "Name": "肩 L_X"
+    },
+    {
+      "Id": "ParamShoulderR",
+      "GroupId": "",
+      "Name": "肩 L_Y"
+    },
+    {
+      "Id": "ParamTearsDrop",
+      "GroupId": "",
+      "Name": "涙　あご"
+    },
+    {
+      "Id": "ParamTearsIn",
+      "GroupId": "",
+      "Name": "涙　表示"
+    },
+    {
+      "Id": "ParamTearsL",
+      "GroupId": "",
+      "Name": "涙　流れL"
+    },
+    {
+      "Id": "ParamTearsR",
+      "GroupId": "",
+      "Name": "涙　流れR"
+    },
+    {
+      "Id": "ParamTearsYure1",
+      "GroupId": "",
+      "Name": "涙　揺れ1"
+    },
+    {
+      "Id": "ParamTearsYure2",
+      "GroupId": "",
+      "Name": "涙　揺れ2"
+    },
+    {
+      "Id": "ParamWaistZ",
+      "GroupId": "",
+      "Name": "軸足_Z"
+    },
+    {
+      "Id": "ParamYureBust",
+      "GroupId": "",
+      "Name": "物理演算　胸Y"
+    },
+    {
+      "Id": "ParamYureBust2",
+      "GroupId": "",
+      "Name": "物理演算　胸X"
+    },
+    {
+      "Id": "ParamYureHairFront",
+      "GroupId": "",
+      "Name": "物理演算　前髪"
+    },
+    {
+      "Id": "ParamYureHairSide",
+      "GroupId": "",
+      "Name": "物理演算　横髪"
+    },
+    {
+      "Id": "ParamYureParts",
+      "GroupId": "",
+      "Name": "物理演算　他"
+    }
+  ],
+  "ParameterGroups": [],
+  "Parts": [
+    {
+      "Id": "body",
+      "Name": "neck"
+    },
+    {
+      "Id": "body_armor_ribbon",
+      "Name": "L_hand"
+    },
+    {
+      "Id": "bubble",
+      "Name": "B_effect"
+    },
+    {
+      "Id": "bust",
+      "Name": "EF_hand"
+    },
+    {
+      "Id": "B_effect",
+      "Name": "UI"
+    },
+    {
+      "Id": "B_hair",
+      "Name": "L_leg"
+    },
+    {
+      "Id": "EF_Back_Flag",
+      "Name": "EF_Foot"
+    },
+    {
+      "Id": "EF_Blade",
+      "Name": "EF_Dress"
+    },
+    {
+      "Id": "EF_Dress",
+      "Name": "EF_Skill"
+    },
+    {
+      "Id": "EF_Foot",
+      "Name": "EF_Blade"
+    },
+    {
+      "Id": "EF_hand",
+      "Name": "face"
+    },
+    {
+      "Id": "EF_Skill",
+      "Name": "[ 下絵 ]"
+    },
+    {
+      "Id": "face2",
+      "Name": "R_arm_sabun_c"
+    },
+    {
+      "Id": "F_hair",
+      "Name": "R_arm_sabun_b"
+    },
+    {
+      "Id": "F_hair_C",
+      "Name": "R_arm_sabun_forarm_b"
+    },
+    {
+      "Id": "F_hair_L",
+      "Name": "F_hair_R"
+    },
+    {
+      "Id": "F_hair_R",
+      "Name": "R_finger_B"
+    },
+    {
+      "Id": "head",
+      "Name": "追加素材"
+    },
+    {
+      "Id": "L_arm",
+      "Name": "head"
+    },
+    {
+      "Id": "L_arm_sabun_a",
+      "Name": "waist_dress_B"
+    },
+    {
+      "Id": "L_arm_sabun_b",
+      "Name": "R_arm"
+    },
+    {
+      "Id": "L_eye",
+      "Name": "F_hair_L"
+    },
+    {
+      "Id": "L_hand",
+      "Name": "F_hair"
+    },
+    {
+      "Id": "L_leg",
+      "Name": "body"
+    },
+    {
+      "Id": "neck",
+      "Name": "neck_parts"
+    },
+    {
+      "Id": "Part",
+      "Name": "body_armor_ribbon"
+    },
+    {
+      "Id": "Part10",
+      "Name": "Character"
+    },
+    {
+      "Id": "Part11",
+      "Name": "EF_Back_Flag"
+    },
+    {
+      "Id": "Part12",
+      "Name": "Weapon_D"
+    },
+    {
+      "Id": "Part13",
+      "Name": "R_eye"
+    },
+    {
+      "Id": "Part14",
+      "Name": "Weapon_E"
+    },
+    {
+      "Id": "Part15",
+      "Name": "Weapon_F"
+    },
+    {
+      "Id": "Part16",
+      "Name": "waist_dress_R_b"
+    },
+    {
+      "Id": "Part17",
+      "Name": "R_finger_F"
+    },
+    {
+      "Id": "Part18",
+      "Name": "L_eye"
+    },
+    {
+      "Id": "Part19",
+      "Name": "bust"
+    },
+    {
+      "Id": "Part2",
+      "Name": "blade_Effect_dummy"
+    },
+    {
+      "Id": "Part20",
+      "Name": "CHR_000089_EF_01.psd"
+    },
+    {
+      "Id": "Part3",
+      "Name": "CHR_000089_import1.psd"
+    },
+    {
+      "Id": "Part4",
+      "Name": "bubble"
+    },
+    {
+      "Id": "Part5",
+      "Name": "Weapon_A"
+    },
+    {
+      "Id": "Part6",
+      "Name": "Weapon_C"
+    },
+    {
+      "Id": "Part7",
+      "Name": "weapon"
+    },
+    {
+      "Id": "Part8",
+      "Name": "Skill_EF"
+    },
+    {
+      "Id": "Part9",
+      "Name": "L_arm_sabun_a"
+    },
+    {
+      "Id": "R_arm",
+      "Name": "B_hair"
+    },
+    {
+      "Id": "R_arm_sabun_a",
+      "Name": "L_arm_sabun_b"
+    },
+    {
+      "Id": "R_arm_sabun_b",
+      "Name": "L_arm_sabun_b_elbow_armor_B"
+    },
+    {
+      "Id": "R_arm_sabun_c",
+      "Name": "R_arm_sabun_a"
+    },
+    {
+      "Id": "R_eye",
+      "Name": "F_hair_C"
+    },
+    {
+      "Id": "R_Leg",
+      "Name": "waist_dress"
+    },
+    {
+      "Id": "Tears",
+      "Name": "ear_sidehair_a"
+    },
+    {
+      "Id": "waist_dress",
+      "Name": "L_arm"
+    },
+    {
+      "Id": "waist_dress_B",
+      "Name": "R_Leg"
+    },
+    {
+      "Id": "weapon",
+      "Name": "R_forearm"
+    }
+  ]
+}
